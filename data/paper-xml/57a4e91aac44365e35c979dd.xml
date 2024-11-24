@@ -1,0 +1,50 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1605.07723v3</ns0:id>
+    <ns0:updated>2017-01-08T19:48:53Z</ns0:updated>
+    <ns0:published>2016-05-25T04:14:59Z</ns0:published>
+    <ns0:title>Data Programming: Creating Large Training Sets, Quickly</ns0:title>
+    <ns0:summary>  Large labeled training sets are the critical building blocks of supervised
+learning methods and are key enablers of deep learning techniques. For some
+applications, creating labeled training sets is the most time-consuming and
+expensive part of applying machine learning. We therefore propose a paradigm
+for the programmatic creation of training sets called data programming in which
+users express weak supervision strategies or domain heuristics as labeling
+functions, which are programs that label subsets of the data, but that are
+noisy and may conflict. We show that by explicitly representing this training
+set labeling process as a generative model, we can "denoise" the generated
+training set, and establish theoretically that we can recover the parameters of
+these generative models in a handful of settings. We then show how to modify a
+discriminative loss function to make it noise-aware, and demonstrate our method
+over a range of discriminative models including logistic regression and LSTMs.
+Experimentally, on the 2014 TAC-KBP Slot Filling challenge, we show that data
+programming would have led to a new winning score, and also show that applying
+data programming to an LSTM model leads to a TAC-KBP score almost 6 F1 points
+over a state-of-the-art LSTM baseline (and into second place in the
+competition). Additionally, in initial user studies we observed that data
+programming may be an easier way for non-experts to create machine learning
+models when training data is limited or unavailable.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Alexander Ratner</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Christopher De Sa</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Sen Wu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Daniel Selsam</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Christopher R&#233;</ns0:name>
+    </ns0:author>
+    <ns1:journal_ref>Advances in Neural Information Processing Systems 29, 2016,
+  3567--3575</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1605.07723v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1605.07723v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

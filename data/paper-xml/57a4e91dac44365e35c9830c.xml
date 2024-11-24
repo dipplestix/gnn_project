@@ -1,0 +1,32 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1605.05273v4</ns0:id>
+    <ns0:updated>2016-06-08T11:40:13Z</ns0:updated>
+    <ns0:published>2016-05-17T18:13:13Z</ns0:published>
+    <ns0:title>Learning Convolutional Neural Networks for Graphs</ns0:title>
+    <ns0:summary>  Numerous important problems can be framed as learning from graph data. We
+propose a framework for learning convolutional neural networks for arbitrary
+graphs. These graphs may be undirected, directed, and with both discrete and
+continuous node and edge attributes. Analogous to image-based convolutional
+networks that operate on locally connected regions of the input, we present a
+general approach to extracting locally connected regions from graphs. Using
+established benchmark data sets, we demonstrate that the learned feature
+representations are competitive with state of the art graph kernels and that
+their computation is highly efficient.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Mathias Niepert</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mohamed Ahmed</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Konstantin Kutzkov</ns0:name>
+    </ns0:author>
+    <ns1:comment>To be presented at ICML 2016</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1605.05273v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1605.05273v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,46 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1807.06732v2</ns0:id>
+    <ns0:updated>2018-07-20T01:57:37Z</ns0:updated>
+    <ns0:published>2018-07-18T01:17:27Z</ns0:published>
+    <ns0:title>Motivating the Rules of the Game for Adversarial Example Research</ns0:title>
+    <ns0:summary>  Advances in machine learning have led to broad deployment of systems with
+impressive performance on important problems. Nonetheless, these systems can be
+induced to make errors on data that are surprisingly similar to examples the
+learned system handles correctly. The existence of these errors raises a
+variety of questions about out-of-sample generalization and whether bad actors
+might use such examples to abuse deployed systems. As a result of these
+security concerns, there has been a flurry of recent papers proposing
+algorithms to defend against such malicious perturbations of correctly handled
+examples. It is unclear how such misclassifications represent a different kind
+of security problem than other errors, or even other attacker-produced examples
+that have no specific relationship to an uncorrupted input. In this paper, we
+argue that adversarial example defense papers have, to date, mostly considered
+abstract, toy games that do not relate to any specific security concern.
+Furthermore, defense papers have not yet precisely described all the abilities
+and limitations of attackers that would be relevant in practical security.
+Towards this end, we establish a taxonomy of motivations, constraints, and
+abilities for more plausible adversaries. Finally, we provide a series of
+recommendations outlining a path forward for future work to more clearly
+articulate the threat model and perform more meaningful evaluation.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Justin Gilmer</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ryan P. Adams</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ian Goodfellow</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>David Andersen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>George E. Dahl</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1807.06732v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1807.06732v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

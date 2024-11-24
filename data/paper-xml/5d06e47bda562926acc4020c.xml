@@ -1,0 +1,33 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1906.03520v2</ns0:id>
+    <ns0:updated>2019-08-16T22:17:35Z</ns0:updated>
+    <ns0:published>2019-06-08T20:54:02Z</ns0:published>
+    <ns0:title>Domain Adaptive Dialog Generation via Meta Learning</ns0:title>
+    <ns0:summary>  Domain adaptation is an essential task in dialog system building because
+there are so many new dialog tasks created for different needs every day.
+Collecting and annotating training data for these new tasks is costly since it
+involves real user interactions. We propose a domain adaptive dialog generation
+method based on meta-learning (DAML). DAML is an end-to-end trainable dialog
+system model that learns from multiple rich-resource tasks and then adapts to
+new domains with minimal training samples. We train a dialog system model using
+multiple rich-resource single-domain dialog data by applying the model-agnostic
+meta-learning algorithm to dialog domain. The model is capable of learning a
+competitive dialog system on a new domain with only a few training examples in
+an efficient manner. The two-step gradient updates in DAML enable the model to
+learn general features across multiple tasks. We evaluate our method on a
+simulated dialog dataset and achieve state-of-the-art performance, which is
+generalizable to new tasks.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Kun Qian</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhou Yu</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted as a long paper in ACL 2019</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1906.03520v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1906.03520v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

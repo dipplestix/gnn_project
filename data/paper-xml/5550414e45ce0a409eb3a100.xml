@@ -1,0 +1,44 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1504.05524v1</ns0:id>
+    <ns0:updated>2015-04-21T17:44:07Z</ns0:updated>
+    <ns0:published>2015-04-21T17:44:07Z</ns0:published>
+    <ns0:title>A robust and efficient video representation for action recognition</ns0:title>
+    <ns0:summary>  This paper introduces a state-of-the-art video representation and applies it
+to efficient action recognition and detection. We first propose to improve the
+popular dense trajectory features by explicit camera motion estimation. More
+specifically, we extract feature point matches between frames using SURF
+descriptors and dense optical flow. The matches are used to estimate a
+homography with RANSAC. To improve the robustness of homography estimation, a
+human detector is employed to remove outlier matches from the human body as
+human motion is not constrained by the camera. Trajectories consistent with the
+homography are considered as due to camera motion, and thus removed. We also
+use the homography to cancel out camera motion from the optical flow. This
+results in significant improvement on motion-based HOF and MBH descriptors. We
+further explore the recent Fisher vector as an alternative feature encoding
+approach to the standard bag-of-words histogram, and consider different ways to
+include spatial layout information in these encodings. We present a large and
+varied set of evaluations, considering (i) classification of short basic
+actions on six datasets, (ii) localization of such actions in feature-length
+movies, and (iii) large-scale recognition of complex events. We find that our
+improved trajectory features significantly outperform previous dense
+trajectories, and that Fisher vectors are superior to bag-of-words encodings
+for video recognition tasks. In all three tasks, we show substantial
+improvements over the state-of-the-art results.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Heng Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dan Oneata</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jakob Verbeek</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Cordelia Schmid</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1504.05524v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1504.05524v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

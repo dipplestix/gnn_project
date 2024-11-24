@@ -1,0 +1,30 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1907.03199v2</ns0:id>
+    <ns0:updated>2020-01-28T13:24:15Z</ns0:updated>
+    <ns0:published>2019-07-06T22:26:17Z</ns0:published>
+    <ns0:title>What graph neural networks cannot learn: depth vs width</ns0:title>
+    <ns0:summary>  This paper studies the expressive power of graph neural networks falling
+within the message-passing framework (GNNmp). Two results are presented. First,
+GNNmp are shown to be Turing universal under sufficient conditions on their
+depth, width, node attributes, and layer expressiveness. Second, it is
+discovered that GNNmp can lose a significant portion of their power when their
+depth and width is restricted. The proposed impossibility statements stem from
+a new technique that enables the repurposing of seminal results from
+distributed computing and leads to lower bounds for an array of decision,
+optimization, and estimation problems involving graphs. Strikingly, several of
+these problems are deemed impossible unless the product of a GNNmp's depth and
+width exceeds a polynomial of the graph size; this dependence remains
+significant even for tasks that appear simple or when considering
+approximation.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Andreas Loukas</ns0:name>
+    </ns0:author>
+    <ns1:comment>17 pages, 10 figures. International Conference on Learning
+  Representations (ICLR), 2020</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1907.03199v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1907.03199v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

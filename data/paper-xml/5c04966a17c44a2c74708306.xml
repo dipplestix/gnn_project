@@ -1,0 +1,39 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1811.01057v1</ns0:id>
+    <ns0:updated>2018-11-02T19:08:04Z</ns0:updated>
+    <ns0:published>2018-11-02T19:08:04Z</ns0:published>
+    <ns0:title>Semidefinite relaxations for certifying robustness to adversarial
+  examples</ns0:title>
+    <ns0:summary>  Despite their impressive performance on diverse tasks, neural networks fail
+catastrophically in the presence of adversarial inputs---imperceptibly but
+adversarially perturbed versions of natural inputs. We have witnessed an arms
+race between defenders who attempt to train robust networks and attackers who
+try to construct adversarial examples. One promise of ending the arms race is
+developing certified defenses, ones which are provably robust against all
+attackers in some family. These certified defenses are based on convex
+relaxations which construct an upper bound on the worst case loss over all
+attackers in the family. Previous relaxations are loose on networks that are
+not trained against the respective relaxation. In this paper, we propose a new
+semidefinite relaxation for certifying robustness that applies to arbitrary
+ReLU networks. We show that our proposed relaxation is tighter than previous
+relaxations and produces meaningful robustness guarantees on three different
+"foreign networks" whose training objectives are agnostic to our proposed
+relaxation.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Aditi Raghunathan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jacob Steinhardt</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Percy Liang</ns0:name>
+    </ns0:author>
+    <ns1:comment>To appear at NIPS 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1811.01057v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1811.01057v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

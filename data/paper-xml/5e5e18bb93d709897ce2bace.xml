@@ -1,0 +1,47 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2002.07962v1</ns0:id>
+    <ns0:updated>2020-02-19T02:05:37Z</ns0:updated>
+    <ns0:published>2020-02-19T02:05:37Z</ns0:published>
+    <ns0:title>Inductive Representation Learning on Temporal Graphs</ns0:title>
+    <ns0:summary>  Inductive representation learning on temporal graphs is an important step
+toward salable machine learning on real-world dynamic networks. The evolving
+nature of temporal dynamic graphs requires handling new nodes as well as
+capturing temporal patterns. The node embeddings, which are now functions of
+time, should represent both the static node features and the evolving
+topological structures. Moreover, node and topological features can be temporal
+as well, whose patterns the node embeddings should also capture. We propose the
+temporal graph attention (TGAT) layer to efficiently aggregate
+temporal-topological neighborhood features as well as to learn the time-feature
+interactions. For TGAT, we use the self-attention mechanism as building block
+and develop a novel functional time encoding technique based on the classical
+Bochner's theorem from harmonic analysis. By stacking TGAT layers, the network
+recognizes the node embeddings as functions of time and is able to inductively
+infer embeddings for both new and observed nodes as the graph evolves. The
+proposed approach handles both node classification and link prediction task,
+and can be naturally extended to include the temporal edge features. We
+evaluate our method with transductive and inductive tasks under temporal
+settings with two benchmark and one industrial dataset. Our TGAT model compares
+favorably to state-of-the-art baselines as well as the previous temporal graph
+embedding approaches.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Da Xu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuanwei Ruan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Evren Korpeoglu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Sushant Kumar</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kannan Achan</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2002.07962v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2002.07962v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

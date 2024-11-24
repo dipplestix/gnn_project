@@ -1,0 +1,46 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1807.03341v2</ns0:id>
+    <ns0:updated>2018-07-26T12:54:30Z</ns0:updated>
+    <ns0:published>2018-07-09T18:59:17Z</ns0:published>
+    <ns0:title>Troubling Trends in Machine Learning Scholarship</ns0:title>
+    <ns0:summary>  Collectively, machine learning (ML) researchers are engaged in the creation
+and dissemination of knowledge about data-driven algorithms. In a given paper,
+researchers might aspire to any subset of the following goals, among others: to
+theoretically characterize what is learnable, to obtain understanding through
+empirically rigorous experiments, or to build a working system that has high
+predictive accuracy. While determining which knowledge warrants inquiry may be
+subjective, once the topic is fixed, papers are most valuable to the community
+when they act in service of the reader, creating foundational knowledge and
+communicating as clearly as possible.
+  Recent progress in machine learning comes despite frequent departures from
+these ideals. In this paper, we focus on the following four patterns that
+appear to us to be trending in ML scholarship: (i) failure to distinguish
+between explanation and speculation; (ii) failure to identify the sources of
+empirical gains, e.g., emphasizing unnecessary modifications to neural
+architectures when gains actually stem from hyper-parameter tuning; (iii)
+mathiness: the use of mathematics that obfuscates or impresses rather than
+clarifies, e.g., by confusing technical and non-technical concepts; and (iv)
+misuse of language, e.g., by choosing terms of art with colloquial connotations
+or by overloading established technical terms.
+  While the causes behind these patterns are uncertain, possibilities include
+the rapid expansion of the community, the consequent thinness of the reviewer
+pool, and the often-misaligned incentives between scholarship and short-term
+measures of success (e.g., bibliometrics, attention, and entrepreneurial
+opportunity). While each pattern offers a corresponding remedy (don't do it),
+we also discuss some speculative suggestions for how the community might combat
+these trends.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Zachary C. Lipton</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jacob Steinhardt</ns0:name>
+    </ns0:author>
+    <ns1:comment>Presented at ICML 2018: The Debates</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1807.03341v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1807.03341v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

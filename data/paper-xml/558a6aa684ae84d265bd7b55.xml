@@ -1,0 +1,37 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1604.03390v2</ns0:id>
+    <ns0:updated>2016-12-12T12:28:07Z</ns0:updated>
+    <ns0:published>2016-04-12T13:09:01Z</ns0:published>
+    <ns0:title>Video Description using Bidirectional Recurrent Neural Networks</ns0:title>
+    <ns0:summary>  Although traditionally used in the machine translation field, the
+encoder-decoder framework has been recently applied for the generation of video
+and image descriptions. The combination of Convolutional and Recurrent Neural
+Networks in these models has proven to outperform the previous state of the
+art, obtaining more accurate video descriptions. In this work we propose
+pushing further this model by introducing two contributions into the encoding
+stage. First, producing richer image representations by combining object and
+location information from Convolutional Neural Networks and second, introducing
+Bidirectional Recurrent Neural Networks for capturing both forward and backward
+temporal relationships in the input frames.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>&#193;lvaro Peris</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Marc Bola&#241;os</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Petia Radeva</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Francisco Casacuberta</ns0:name>
+    </ns0:author>
+    <ns1:comment>8 pages, 3 figures, 1 table, Submitted to International Conference on
+  Artificial Neural Networks (ICANN)</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1604.03390v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1604.03390v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

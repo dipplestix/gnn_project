@@ -1,0 +1,40 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1103.0398v1</ns0:id>
+    <ns0:updated>2011-03-02T11:34:50Z</ns0:updated>
+    <ns0:published>2011-03-02T11:34:50Z</ns0:published>
+    <ns0:title>Natural Language Processing (almost) from Scratch</ns0:title>
+    <ns0:summary>  We propose a unified neural network architecture and learning algorithm that
+can be applied to various natural language processing tasks including:
+part-of-speech tagging, chunking, named entity recognition, and semantic role
+labeling. This versatility is achieved by trying to avoid task-specific
+engineering and therefore disregarding a lot of prior knowledge. Instead of
+exploiting man-made input features carefully optimized for each task, our
+system learns internal representations on the basis of vast amounts of mostly
+unlabeled training data. This work is then used as a basis for building a
+freely available tagging system with good performance and minimal computational
+requirements.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Ronan Collobert</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jason Weston</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Leon Bottou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Michael Karlen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Koray Kavukcuoglu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Pavel Kuksa</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1103.0398v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1103.0398v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

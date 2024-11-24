@@ -1,0 +1,37 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1805.06130v1</ns0:id>
+    <ns0:updated>2018-05-16T04:51:29Z</ns0:updated>
+    <ns0:published>2018-05-16T04:51:29Z</ns0:published>
+    <ns0:title>Towards Robust Neural Machine Translation</ns0:title>
+    <ns0:summary>  Small perturbations in the input can severely distort intermediate
+representations and thus impact translation quality of neural machine
+translation (NMT) models. In this paper, we propose to improve the robustness
+of NMT models with adversarial stability training. The basic idea is to make
+both the encoder and decoder in NMT models robust against input perturbations
+by enabling them to behave similarly for the original input and its perturbed
+counterpart. Experimental results on Chinese-English, English-German and
+English-French translation tasks show that our approaches can not only achieve
+significant improvements over strong NMT systems but also improve the
+robustness of NMT models.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Yong Cheng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhaopeng Tu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Fandong Meng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Junjie Zhai</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yang Liu</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted by ACL 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1805.06130v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1805.06130v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

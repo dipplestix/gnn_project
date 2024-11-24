@@ -1,0 +1,43 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1902.09843v1</ns0:id>
+    <ns0:updated>2019-02-26T10:22:48Z</ns0:updated>
+    <ns0:published>2019-02-26T10:22:48Z</ns0:published>
+    <ns0:title>Adaptive Gradient Methods with Dynamic Bound of Learning Rate</ns0:title>
+    <ns0:summary>  Adaptive optimization methods such as AdaGrad, RMSprop and Adam have been
+proposed to achieve a rapid training process with an element-wise scaling term
+on learning rates. Though prevailing, they are observed to generalize poorly
+compared with SGD or even fail to converge due to unstable and extreme learning
+rates. Recent work has put forward some algorithms such as AMSGrad to tackle
+this issue but they failed to achieve considerable improvement over existing
+methods. In our paper, we demonstrate that extreme learning rates can lead to
+poor performance. We provide new variants of Adam and AMSGrad, called AdaBound
+and AMSBound respectively, which employ dynamic bounds on learning rates to
+achieve a gradual and smooth transition from adaptive methods to SGD and give a
+theoretical proof of convergence. We further conduct experiments on various
+popular tasks and models, which is often insufficient in previous work.
+Experimental results show that new variants can eliminate the generalization
+gap between adaptive methods and SGD and maintain higher learning speed early
+in training at the same time. Moreover, they can bring significant improvement
+over their prototypes, especially on complex deep networks. The implementation
+of the algorithm can be found at https://github.com/Luolc/AdaBound .
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Liangchen Luo</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yuanhao Xiong</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yan Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xu Sun</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted to ICLR 2019. arXiv admin note: text overlap with
+  arXiv:1904.09237 by other authors</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1902.09843v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1902.09843v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

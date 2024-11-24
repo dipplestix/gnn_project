@@ -1,0 +1,35 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1506.05751v1</ns0:id>
+    <ns0:updated>2015-06-18T17:03:54Z</ns0:updated>
+    <ns0:published>2015-06-18T17:03:54Z</ns0:published>
+    <ns0:title>Deep Generative Image Models using a Laplacian Pyramid of Adversarial
+  Networks</ns0:title>
+    <ns0:summary>  In this paper we introduce a generative parametric model capable of producing
+high quality samples of natural images. Our approach uses a cascade of
+convolutional networks within a Laplacian pyramid framework to generate images
+in a coarse-to-fine fashion. At each level of the pyramid, a separate
+generative convnet model is trained using the Generative Adversarial Nets (GAN)
+approach (Goodfellow et al.). Samples drawn from our model are of significantly
+higher quality than alternate approaches. In a quantitative assessment by human
+evaluators, our CIFAR10 samples were mistaken for real images around 40% of the
+time, compared to 10% for samples drawn from a GAN baseline model. We also show
+samples from models trained on the higher resolution images of the LSUN scene
+dataset.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Emily Denton</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Soumith Chintala</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Arthur Szlam</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Rob Fergus</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1506.05751v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1506.05751v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

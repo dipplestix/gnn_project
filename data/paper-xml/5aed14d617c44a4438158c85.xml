@@ -1,0 +1,44 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1804.02391v2</ns0:id>
+    <ns0:updated>2018-04-26T14:33:56Z</ns0:updated>
+    <ns0:published>2018-04-06T10:47:26Z</ns0:published>
+    <ns0:title>Learn To Pay Attention</ns0:title>
+    <ns0:summary>  We propose an end-to-end-trainable attention module for convolutional neural
+network (CNN) architectures built for image classification. The module takes as
+input the 2D feature vector maps which form the intermediate representations of
+the input image at different stages in the CNN pipeline, and outputs a 2D
+matrix of scores for each map. Standard CNN architectures are modified through
+the incorporation of this module, and trained under the constraint that a
+convex combination of the intermediate 2D feature vectors, as parameterised by
+the score matrices, must \textit{alone} be used for classification.
+Incentivised to amplify the relevant and suppress the irrelevant or misleading,
+the scores thus assume the role of attention values. Our experimental
+observations provide clear evidence to this effect: the learned attention maps
+neatly highlight the regions of interest while suppressing background clutter.
+Consequently, the proposed function is able to bootstrap standard CNN
+architectures for the task of image classification, demonstrating superior
+generalisation over 6 unseen benchmark datasets. When binarised, our attention
+maps outperform other CNN-based attention maps, traditional saliency maps, and
+top object proposals for weakly supervised segmentation as demonstrated on the
+Object Discovery dataset. We also demonstrate improved robustness against the
+fast gradient sign method of adversarial attack.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Saumya Jetley</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Nicholas A. Lord</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Namhoon Lee</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Philip H. S. Torr</ns0:name>
+    </ns0:author>
+    <ns1:comment>International Conference on Learning Representations 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1804.02391v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1804.02391v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

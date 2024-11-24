@@ -1,0 +1,29 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1607.08022v3</ns0:id>
+    <ns0:updated>2017-11-06T14:21:43Z</ns0:updated>
+    <ns0:published>2016-07-27T10:23:00Z</ns0:published>
+    <ns0:title>Instance Normalization: The Missing Ingredient for Fast Stylization</ns0:title>
+    <ns0:summary>  It this paper we revisit the fast stylization method introduced in Ulyanov
+et. al. (2016). We show how a small change in the stylization architecture
+results in a significant qualitative improvement in the generated images. The
+change is limited to swapping batch normalization with instance normalization,
+and to apply the latter both at training and testing times. The resulting
+method can be used to train high-performance architectures for real-time image
+generation. The code will is made available on github at
+https://github.com/DmitryUlyanov/texture_nets. Full paper can be found at
+arXiv:1701.02096.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Dmitry Ulyanov</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Andrea Vedaldi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Victor Lempitsky</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1607.08022v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1607.08022v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

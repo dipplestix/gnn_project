@@ -1,0 +1,53 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1511.06807v1</ns0:id>
+    <ns0:updated>2015-11-21T01:11:29Z</ns0:updated>
+    <ns0:published>2015-11-21T01:11:29Z</ns0:published>
+    <ns0:title>Adding Gradient Noise Improves Learning for Very Deep Networks</ns0:title>
+    <ns0:summary>  Deep feedforward and recurrent networks have achieved impressive results in
+many perception and language processing applications. This success is partially
+attributed to architectural innovations such as convolutional and long
+short-term memory networks. The main motivation for these architectural
+innovations is that they capture better domain knowledge, and importantly are
+easier to optimize than more basic architectures. Recently, more complex
+architectures such as Neural Turing Machines and Memory Networks have been
+proposed for tasks including question answering and general computation,
+creating a new set of optimization challenges. In this paper, we discuss a
+low-overhead and easy-to-implement technique of adding gradient noise which we
+find to be surprisingly effective when training these very deep architectures.
+The technique not only helps to avoid overfitting, but also can result in lower
+training loss. This method alone allows a fully-connected 20-layer deep network
+to be trained with standard gradient descent, even starting from a poor
+initialization. We see consistent improvements for many complex models,
+including a 72% relative reduction in error rate over a carefully-tuned
+baseline on a challenging question-answering task, and a doubling of the number
+of accurate binary multiplication models learned across 7,000 random restarts.
+We encourage further application of this technique to additional complex modern
+architectures.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Arvind Neelakantan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Luke Vilnis</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Quoc V. Le</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ilya Sutskever</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Lukasz Kaiser</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Karol Kurach</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>James Martens</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1511.06807v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1511.06807v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

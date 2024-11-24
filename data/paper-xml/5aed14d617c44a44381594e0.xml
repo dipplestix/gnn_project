@@ -1,0 +1,95 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1803.05567v2</ns0:id>
+    <ns0:updated>2018-06-29T19:16:39Z</ns0:updated>
+    <ns0:published>2018-03-15T01:30:58Z</ns0:published>
+    <ns0:title>Achieving Human Parity on Automatic Chinese to English News Translation</ns0:title>
+    <ns0:summary>  Machine translation has made rapid advances in recent years. Millions of
+people are using it today in online translation systems and mobile applications
+in order to communicate across language barriers. The question naturally arises
+whether such systems can approach or achieve parity with human translations. In
+this paper, we first address the problem of how to define and accurately
+measure human parity in translation. We then describe Microsoft's machine
+translation system and measure the quality of its translations on the widely
+used WMT 2017 news translation task from Chinese to English. We find that our
+latest neural machine translation system has reached a new state-of-the-art,
+and that the translation quality is at human parity when compared to
+professional human translations. We also find that it significantly exceeds the
+quality of crowd-sourced non-professional translations.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Hany Hassan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Anthony Aue</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chang Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Vishal Chowdhary</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jonathan Clark</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Christian Federmann</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xuedong Huang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Marcin Junczys-Dowmunt</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>William Lewis</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mu Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shujie Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tie-Yan Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Renqian Luo</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Arul Menezes</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tao Qin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Frank Seide</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xu Tan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Fei Tian</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Lijun Wu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shuangzhi Wu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yingce Xia</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dongdong Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhirui Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ming Zhou</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1803.05567v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1803.05567v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

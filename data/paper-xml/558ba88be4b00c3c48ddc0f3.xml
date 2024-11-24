@@ -1,0 +1,36 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1210.4752v2</ns0:id>
+    <ns0:updated>2012-12-28T03:05:23Z</ns0:updated>
+    <ns0:published>2012-10-17T14:37:26Z</ns0:published>
+    <ns0:title>Discrete Signal Processing on Graphs</ns0:title>
+    <ns0:summary>  In social settings, individuals interact through webs of relationships. Each
+individual is a node in a complex network (or graph) of interdependencies and
+generates data, lots of data. We label the data by its source, or formally
+stated, we index the data by the nodes of the graph. The resulting signals
+(data indexed by the nodes) are far removed from time or image signals indexed
+by well ordered time samples or pixels. DSP, discrete signal processing,
+provides a comprehensive, elegant, and efficient methodology to describe,
+represent, transform, analyze, process, or synthesize these well ordered time
+or image signals. This paper extends to signals on graphs DSP and its basic
+tenets, including filters, convolution, z-transform, impulse response, spectral
+representation, Fourier transform, frequency response, and illustrates DSP on
+graphs by classifying blogs, linear predicting and compressing data from
+irregularly located weather stations, or predicting behavior of customers of a
+mobile service provider.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Aliaksei Sandryhaila</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jose M. F. Moura</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1109/TSP.2013.2238935</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1109/TSP.2013.2238935" rel="related" />
+    <ns1:journal_ref>IEEE Transactions on Signal Processing, vol. 61, no. 7, pp.
+  1644-1656, 2013</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1210.4752v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1210.4752v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

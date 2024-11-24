@@ -1,0 +1,52 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1803.00202v1</ns0:id>
+    <ns0:updated>2018-03-01T04:04:35Z</ns0:updated>
+    <ns0:published>2018-03-01T04:04:35Z</ns0:published>
+    <ns0:title>Collaborative Metric Learning Recommendation System: Application to
+  Theatrical Movie Releases</ns0:title>
+    <ns0:summary>  Product recommendation systems are important for major movie studios during
+the movie greenlight process and as part of machine learning personalization
+pipelines. Collaborative Filtering (CF) models have proved to be effective at
+powering recommender systems for online streaming services with explicit
+customer feedback data. CF models do not perform well in scenarios in which
+feedback data is not available, in cold start situations like new product
+launches, and situations with markedly different customer tiers (e.g., high
+frequency customers vs. casual customers). Generative natural language models
+that create useful theme-based representations of an underlying corpus of
+documents can be used to represent new product descriptions, like new movie
+plots. When combined with CF, they have shown to increase the performance in
+cold start situations. Outside of those cases though in which explicit customer
+feedback is available, recommender engines must rely on binary purchase data,
+which materially degrades performance. Fortunately, purchase data can be
+combined with product descriptions to generate meaningful representations of
+products and customer trajectories in a convenient product space in which
+proximity represents similarity. Learning to measure the distance between
+points in this space can be accomplished with a deep neural network that trains
+on customer histories and on dense vectorizations of product descriptions. We
+developed a system based on Collaborative (Deep) Metric Learning (CML) to
+predict the purchase probabilities of new theatrical releases. We trained and
+evaluated the model using a large dataset of customer histories, and tested the
+model for a set of movies that were released outside of the training window.
+Initial experiments show gains relative to models that do not train on
+collaborative preferences.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Miguel Campo</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>JJ Espinoza</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Julie Rieger</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Abhinav Taliyan</ns0:name>
+    </ns0:author>
+    <ns1:comment>6 pages, 3 figures, 3 tables</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1803.00202v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1803.00202v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="68T05, 68T50" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

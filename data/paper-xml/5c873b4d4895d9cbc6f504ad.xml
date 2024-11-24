@@ -1,0 +1,67 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1612.00796v2</ns0:id>
+    <ns0:updated>2017-01-25T13:01:51Z</ns0:updated>
+    <ns0:published>2016-12-02T19:18:37Z</ns0:published>
+    <ns0:title>Overcoming catastrophic forgetting in neural networks</ns0:title>
+    <ns0:summary>  The ability to learn tasks in a sequential fashion is crucial to the
+development of artificial intelligence. Neural networks are not, in general,
+capable of this and it has been widely thought that catastrophic forgetting is
+an inevitable feature of connectionist models. We show that it is possible to
+overcome this limitation and train networks that can maintain expertise on
+tasks which they have not experienced for a long time. Our approach remembers
+old tasks by selectively slowing down learning on the weights important for
+those tasks. We demonstrate our approach is scalable and effective by solving a
+set of classification tasks based on the MNIST hand written digit dataset and
+by learning several Atari 2600 games sequentially.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>James Kirkpatrick</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Razvan Pascanu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Neil Rabinowitz</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Joel Veness</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Guillaume Desjardins</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Andrei A. Rusu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kieran Milan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>John Quan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tiago Ramalho</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Agnieszka Grabska-Barwinska</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Demis Hassabis</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Claudia Clopath</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dharshan Kumaran</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Raia Hadsell</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1073/pnas.1611835114</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1073/pnas.1611835114" rel="related" />
+    <ns0:link href="http://arxiv.org/abs/1612.00796v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1612.00796v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

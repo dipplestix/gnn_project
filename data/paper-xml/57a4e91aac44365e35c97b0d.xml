@@ -1,0 +1,77 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1606.07792v1</ns0:id>
+    <ns0:updated>2016-06-24T19:07:02Z</ns0:updated>
+    <ns0:published>2016-06-24T19:07:02Z</ns0:published>
+    <ns0:title>Wide &amp; Deep Learning for Recommender Systems</ns0:title>
+    <ns0:summary>  Generalized linear models with nonlinear feature transformations are widely
+used for large-scale regression and classification problems with sparse inputs.
+Memorization of feature interactions through a wide set of cross-product
+feature transformations are effective and interpretable, while generalization
+requires more feature engineering effort. With less feature engineering, deep
+neural networks can generalize better to unseen feature combinations through
+low-dimensional dense embeddings learned for the sparse features. However, deep
+neural networks with embeddings can over-generalize and recommend less relevant
+items when the user-item interactions are sparse and high-rank. In this paper,
+we present Wide &amp; Deep learning---jointly trained wide linear models and deep
+neural networks---to combine the benefits of memorization and generalization
+for recommender systems. We productionized and evaluated the system on Google
+Play, a commercial mobile app store with over one billion active users and over
+one million apps. Online experiment results show that Wide &amp; Deep significantly
+increased app acquisitions compared with wide-only and deep-only models. We
+have also open-sourced our implementation in TensorFlow.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Heng-Tze Cheng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Levent Koc</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jeremiah Harmsen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tal Shaked</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tushar Chandra</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hrishi Aradhye</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Glen Anderson</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Greg Corrado</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wei Chai</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mustafa Ispir</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Rohan Anil</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zakaria Haque</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Lichan Hong</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Vihan Jain</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xiaobing Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hemal Shah</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1606.07792v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1606.07792v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

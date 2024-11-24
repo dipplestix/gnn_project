@@ -1,0 +1,33 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1206.5538v3</ns0:id>
+    <ns0:updated>2014-04-23T11:48:51Z</ns0:updated>
+    <ns0:published>2012-06-24T20:51:38Z</ns0:published>
+    <ns0:title>Representation Learning: A Review and New Perspectives</ns0:title>
+    <ns0:summary>  The success of machine learning algorithms generally depends on data
+representation, and we hypothesize that this is because different
+representations can entangle and hide more or less the different explanatory
+factors of variation behind the data. Although specific domain knowledge can be
+used to help design representations, learning with generic priors can also be
+used, and the quest for AI is motivating the design of more powerful
+representation-learning algorithms implementing such priors. This paper reviews
+recent work in the area of unsupervised feature learning and deep learning,
+covering advances in probabilistic models, auto-encoders, manifold learning,
+and deep networks. This motivates longer-term unanswered questions about the
+appropriate objectives for learning good representations, for computing
+representations (i.e., inference), and the geometrical connections between
+representation learning, density estimation and manifold learning.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Yoshua Bengio</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Aaron Courville</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Pascal Vincent</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1206.5538v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1206.5538v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

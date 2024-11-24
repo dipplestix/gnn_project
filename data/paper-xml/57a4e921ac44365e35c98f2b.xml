@@ -1,0 +1,48 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1604.00289v3</ns0:id>
+    <ns0:updated>2016-11-02T17:26:50Z</ns0:updated>
+    <ns0:published>2016-04-01T15:37:57Z</ns0:published>
+    <ns0:title>Building Machines That Learn and Think Like People</ns0:title>
+    <ns0:summary>  Recent progress in artificial intelligence (AI) has renewed interest in
+building systems that learn and think like people. Many advances have come from
+using deep neural networks trained end-to-end in tasks such as object
+recognition, video games, and board games, achieving performance that equals or
+even beats humans in some respects. Despite their biological inspiration and
+performance achievements, these systems differ from human intelligence in
+crucial ways. We review progress in cognitive science suggesting that truly
+human-like learning and thinking machines will have to reach beyond current
+engineering trends in both what they learn, and how they learn it.
+Specifically, we argue that these machines should (a) build causal models of
+the world that support explanation and understanding, rather than merely
+solving pattern recognition problems; (b) ground learning in intuitive theories
+of physics and psychology, to support and enrich the knowledge that is learned;
+and (c) harness compositionality and learning-to-learn to rapidly acquire and
+generalize knowledge to new tasks and situations. We suggest concrete
+challenges and promising routes towards these goals that can combine the
+strengths of recent neural network advances with more structured cognitive
+models.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Brenden M. Lake</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tomer D. Ullman</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Joshua B. Tenenbaum</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Samuel J. Gershman</ns0:name>
+    </ns0:author>
+    <ns1:comment>In press at Behavioral and Brain Sciences. Open call for commentary
+  proposals (until Nov. 22, 2016).
+  https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/information/calls-for-commentary/open-calls-for-commentary</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1604.00289v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1604.00289v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

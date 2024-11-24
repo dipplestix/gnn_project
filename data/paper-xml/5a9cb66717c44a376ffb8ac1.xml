@@ -1,0 +1,45 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1802.05365v2</ns0:id>
+    <ns0:updated>2018-03-22T21:59:40Z</ns0:updated>
+    <ns0:published>2018-02-15T00:05:11Z</ns0:published>
+    <ns0:title>Deep contextualized word representations</ns0:title>
+    <ns0:summary>  We introduce a new type of deep contextualized word representation that
+models both (1) complex characteristics of word use (e.g., syntax and
+semantics), and (2) how these uses vary across linguistic contexts (i.e., to
+model polysemy). Our word vectors are learned functions of the internal states
+of a deep bidirectional language model (biLM), which is pre-trained on a large
+text corpus. We show that these representations can be easily added to existing
+models and significantly improve the state of the art across six challenging
+NLP problems, including question answering, textual entailment and sentiment
+analysis. We also present an analysis showing that exposing the deep internals
+of the pre-trained network is crucial, allowing downstream models to mix
+different types of semi-supervision signals.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Matthew E. Peters</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mark Neumann</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mohit Iyyer</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Matt Gardner</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Christopher Clark</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kenton Lee</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Luke Zettlemoyer</ns0:name>
+    </ns0:author>
+    <ns1:comment>NAACL 2018. Originally posted to openreview 27 Oct 2017. v2 updated
+  for NAACL camera ready</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1802.05365v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1802.05365v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

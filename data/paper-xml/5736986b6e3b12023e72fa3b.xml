@@ -1,0 +1,43 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1506.04214v2</ns0:id>
+    <ns0:updated>2015-09-19T11:02:03Z</ns0:updated>
+    <ns0:published>2015-06-13T03:19:24Z</ns0:published>
+    <ns0:title>Convolutional LSTM Network: A Machine Learning Approach for
+  Precipitation Nowcasting</ns0:title>
+    <ns0:summary>  The goal of precipitation nowcasting is to predict the future rainfall
+intensity in a local region over a relatively short period of time. Very few
+previous studies have examined this crucial and challenging weather forecasting
+problem from the machine learning perspective. In this paper, we formulate
+precipitation nowcasting as a spatiotemporal sequence forecasting problem in
+which both the input and the prediction target are spatiotemporal sequences. By
+extending the fully connected LSTM (FC-LSTM) to have convolutional structures
+in both the input-to-state and state-to-state transitions, we propose the
+convolutional LSTM (ConvLSTM) and use it to build an end-to-end trainable model
+for the precipitation nowcasting problem. Experiments show that our ConvLSTM
+network captures spatiotemporal correlations better and consistently
+outperforms FC-LSTM and the state-of-the-art operational ROVER algorithm for
+precipitation nowcasting.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Xingjian Shi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhourong Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hao Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dit-Yan Yeung</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wai-kin Wong</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wang-chun Woo</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1506.04214v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1506.04214v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

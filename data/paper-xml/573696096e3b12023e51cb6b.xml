@@ -1,0 +1,48 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1509.02971v6</ns0:id>
+    <ns0:updated>2019-07-05T10:47:27Z</ns0:updated>
+    <ns0:published>2015-09-09T23:01:36Z</ns0:published>
+    <ns0:title>Continuous control with deep reinforcement learning</ns0:title>
+    <ns0:summary>  We adapt the ideas underlying the success of Deep Q-Learning to the
+continuous action domain. We present an actor-critic, model-free algorithm
+based on the deterministic policy gradient that can operate over continuous
+action spaces. Using the same learning algorithm, network architecture and
+hyper-parameters, our algorithm robustly solves more than 20 simulated physics
+tasks, including classic problems such as cartpole swing-up, dexterous
+manipulation, legged locomotion and car driving. Our algorithm is able to find
+policies whose performance is competitive with those found by a planning
+algorithm with full access to the dynamics of the domain and its derivatives.
+We further demonstrate that for many of the tasks the algorithm can learn
+policies end-to-end: directly from raw pixel inputs.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Timothy P. Lillicrap</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jonathan J. Hunt</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Alexander Pritzel</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Nicolas Heess</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tom Erez</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yuval Tassa</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>David Silver</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Daan Wierstra</ns0:name>
+    </ns0:author>
+    <ns1:comment>10 pages + supplementary</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1509.02971v6" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1509.02971v6" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

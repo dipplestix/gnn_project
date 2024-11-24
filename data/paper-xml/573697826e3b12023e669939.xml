@@ -1,0 +1,31 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1412.0035v1</ns0:id>
+    <ns0:updated>2014-11-26T18:51:52Z</ns0:updated>
+    <ns0:published>2014-11-26T18:51:52Z</ns0:published>
+    <ns0:title>Understanding Deep Image Representations by Inverting Them</ns0:title>
+    <ns0:summary>  Image representations, from SIFT and Bag of Visual Words to Convolutional
+Neural Networks (CNNs), are a crucial component of almost any image
+understanding system. Nevertheless, our understanding of them remains limited.
+In this paper we conduct a direct analysis of the visual information contained
+in representations by asking the following question: given an encoding of an
+image, to which extent is it possible to reconstruct the image itself? To
+answer this question we contribute a general framework to invert
+representations. We show that this method can invert representations such as
+HOG and SIFT more accurately than recent alternatives while being applicable to
+CNNs too. We then use this technique to study the inverse of recent
+state-of-the-art CNN image representations for the first time. Among our
+findings, we show that several layers in CNNs retain photographically accurate
+information about the image, with different degrees of geometric and
+photometric invariance.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Aravindh Mahendran</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Andrea Vedaldi</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1412.0035v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1412.0035v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

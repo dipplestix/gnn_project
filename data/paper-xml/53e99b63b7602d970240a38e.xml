@@ -1,0 +1,40 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1405.3531v4</ns0:id>
+    <ns0:updated>2014-11-05T08:34:48Z</ns0:updated>
+    <ns0:published>2014-05-14T15:19:22Z</ns0:published>
+    <ns0:title>Return of the Devil in the Details: Delving Deep into Convolutional Nets</ns0:title>
+    <ns0:summary>  The latest generation of Convolutional Neural Networks (CNN) have achieved
+impressive results in challenging benchmarks on image recognition and object
+detection, significantly raising the interest of the community in these
+methods. Nevertheless, it is still unclear how different CNN methods compare
+with each other and with previous state-of-the-art shallow representations such
+as the Bag-of-Visual-Words and the Improved Fisher Vector. This paper conducts
+a rigorous evaluation of these new techniques, exploring different deep
+architectures and comparing them on a common ground, identifying and disclosing
+important implementation details. We identify several useful properties of
+CNN-based representations, including the fact that the dimensionality of the
+CNN output layer can be reduced significantly without having an adverse effect
+on performance. We also identify aspects of deep and shallow methods that can
+be successfully shared. In particular, we show that the data augmentation
+techniques commonly applied to CNN-based methods can also be applied to shallow
+methods, and result in an analogous performance boost. Source code and models
+to reproduce the experiments in the paper is made publicly available.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Ken Chatfield</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Karen Simonyan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Andrea Vedaldi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Andrew Zisserman</ns0:name>
+    </ns0:author>
+    <ns1:comment>Published in proceedings of BMVC 2014</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1405.3531v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1405.3531v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

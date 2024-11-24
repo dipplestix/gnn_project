@@ -1,0 +1,35 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1807.09596v1</ns0:id>
+    <ns0:updated>2018-07-23T03:34:35Z</ns0:updated>
+    <ns0:published>2018-07-23T03:34:35Z</ns0:published>
+    <ns0:title>Contextual Stochastic Block Models</ns0:title>
+    <ns0:summary>  We provide the first information theoretic tight analysis for inference of
+latent community structure given a sparse graph along with high dimensional
+node covariates, correlated with the same latent communities. Our work bridges
+recent theoretical breakthroughs in the detection of latent community structure
+without nodes covariates and a large body of empirical work using diverse
+heuristics for combining node covariates with graphs for inference. The
+tightness of our analysis implies in particular, the information theoretical
+necessity of combining the different sources of information. Our analysis holds
+for networks of large degrees as well as for a Gaussian version of the model.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Yash Deshpande</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Andrea Montanari</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Elchanan Mossel</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Subhabrata Sen</ns0:name>
+    </ns0:author>
+    <ns1:comment>28 pages, 1 figure, conference submission</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1807.09596v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1807.09596v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

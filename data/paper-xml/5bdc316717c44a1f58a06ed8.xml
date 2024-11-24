@@ -1,0 +1,55 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1803.03467v4</ns0:id>
+    <ns0:updated>2018-08-25T05:52:08Z</ns0:updated>
+    <ns0:published>2018-03-09T11:12:01Z</ns0:published>
+    <ns0:title>RippleNet: Propagating User Preferences on the Knowledge Graph for
+  Recommender Systems</ns0:title>
+    <ns0:summary>  To address the sparsity and cold start problem of collaborative filtering,
+researchers usually make use of side information, such as social networks or
+item attributes, to improve recommendation performance. This paper considers
+the knowledge graph as the source of side information. To address the
+limitations of existing embedding-based and path-based methods for
+knowledge-graph-aware recommendation, we propose Ripple Network, an end-to-end
+framework that naturally incorporates the knowledge graph into recommender
+systems. Similar to actual ripples propagating on the surface of water, Ripple
+Network stimulates the propagation of user preferences over the set of
+knowledge entities by automatically and iteratively extending a user's
+potential interests along links in the knowledge graph. The multiple "ripples"
+activated by a user's historically clicked items are thus superposed to form
+the preference distribution of the user with respect to a candidate item, which
+could be used for predicting the final clicking probability. Through extensive
+experiments on real-world datasets, we demonstrate that Ripple Network achieves
+substantial gains in a variety of scenarios, including movie, book and news
+recommendation, over several state-of-the-art baselines.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Hongwei Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Fuzheng Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jialin Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Miao Zhao</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wenjie Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xing Xie</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Minyi Guo</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1145/3269206.3271739</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1145/3269206.3271739" rel="related" />
+    <ns1:comment>CIKM 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1803.03467v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1803.03467v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

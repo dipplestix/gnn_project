@@ -1,0 +1,44 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1704.08847v2</ns0:id>
+    <ns0:updated>2017-05-02T01:11:21Z</ns0:updated>
+    <ns0:published>2017-04-28T08:43:55Z</ns0:published>
+    <ns0:title>Parseval Networks: Improving Robustness to Adversarial Examples</ns0:title>
+    <ns0:summary>  We introduce Parseval networks, a form of deep neural networks in which the
+Lipschitz constant of linear, convolutional and aggregation layers is
+constrained to be smaller than 1. Parseval networks are empirically and
+theoretically motivated by an analysis of the robustness of the predictions
+made by deep neural networks when their input is subject to an adversarial
+perturbation. The most important feature of Parseval networks is to maintain
+weight matrices of linear and convolutional layers to be (approximately)
+Parseval tight frames, which are extensions of orthogonal matrices to
+non-square matrices. We describe how these constraints can be maintained
+efficiently during SGD. We show that Parseval networks match the
+state-of-the-art in terms of accuracy on CIFAR-10/100 and Street View House
+Numbers (SVHN) while being more robust than their vanilla counterpart against
+adversarial examples. Incidentally, Parseval networks also tend to train faster
+and make a better usage of the full capacity of the networks.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Moustapha Cisse</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Piotr Bojanowski</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Edouard Grave</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yann Dauphin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Nicolas Usunier</ns0:name>
+    </ns0:author>
+    <ns1:comment>submitted</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1704.08847v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1704.08847v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

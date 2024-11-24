@@ -1,0 +1,44 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1506.03134v2</ns0:id>
+    <ns0:updated>2017-01-02T10:25:29Z</ns0:updated>
+    <ns0:published>2015-06-09T23:38:16Z</ns0:published>
+    <ns0:title>Pointer Networks</ns0:title>
+    <ns0:summary>  We introduce a new neural architecture to learn the conditional probability
+of an output sequence with elements that are discrete tokens corresponding to
+positions in an input sequence. Such problems cannot be trivially addressed by
+existent approaches such as sequence-to-sequence and Neural Turing Machines,
+because the number of target classes in each step of the output depends on the
+length of the input, which is variable. Problems such as sorting variable sized
+sequences, and various combinatorial optimization problems belong to this
+class. Our model solves the problem of variable size output dictionaries using
+a recently proposed mechanism of neural attention. It differs from the previous
+attention attempts in that, instead of using attention to blend hidden units of
+an encoder to a context vector at each decoder step, it uses attention as a
+pointer to select a member of the input sequence as the output. We call this
+architecture a Pointer Net (Ptr-Net). We show Ptr-Nets can be used to learn
+approximate solutions to three challenging geometric problems -- finding planar
+convex hulls, computing Delaunay triangulations, and the planar Travelling
+Salesman Problem -- using training examples alone. Ptr-Nets not only improve
+over sequence-to-sequence with input attention, but also allow us to generalize
+to variable size output dictionaries. We show that the learnt models generalize
+beyond the maximum lengths they were trained on. We hope our results on these
+tasks will encourage a broader exploration of neural learning for discrete
+problems.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Oriol Vinyals</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Meire Fortunato</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Navdeep Jaitly</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1506.03134v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1506.03134v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

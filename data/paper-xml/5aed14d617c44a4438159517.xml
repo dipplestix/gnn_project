@@ -1,0 +1,37 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1804.02135v3</ns0:id>
+    <ns0:updated>2019-02-11T09:41:22Z</ns0:updated>
+    <ns0:published>2018-04-06T05:27:14Z</ns0:published>
+    <ns0:title>Expressive Speech Synthesis via Modeling Expressions with Variational
+  Autoencoder</ns0:title>
+    <ns0:summary>  Recent advances in neural autoregressive models have improve the performance
+of speech synthesis (SS). However, as they lack the ability to model global
+characteristics of speech (such as speaker individualities or speaking styles),
+particularly when these characteristics have not been labeled, making neural
+autoregressive SS systems more expressive is still an open issue. In this
+paper, we propose to combine VoiceLoop, an autoregressive SS model, with
+Variational Autoencoder (VAE). This approach, unlike traditional autoregressive
+SS systems, uses VAE to model the global characteristics explicitly, enabling
+the expressiveness of the synthesized speech to be controlled in an
+unsupervised manner. Experiments using the VCTK and Blizzard2012 datasets show
+the VAE helps VoiceLoop to generate higher quality speech and to control the
+expressions in its synthesized speech by incorporating global characteristics
+into the speech generating process.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Kei Akuzawa</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yusuke Iwasawa</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yutaka Matsuo</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted by Interspeech 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1804.02135v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1804.02135v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SD" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="eess.AS" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

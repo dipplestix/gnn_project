@@ -1,0 +1,29 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1411.1784v1</ns0:id>
+    <ns0:updated>2014-11-06T22:33:22Z</ns0:updated>
+    <ns0:published>2014-11-06T22:33:22Z</ns0:published>
+    <ns0:title>Conditional Generative Adversarial Nets</ns0:title>
+    <ns0:summary>  Generative Adversarial Nets [8] were recently introduced as a novel way to
+train generative models. In this work we introduce the conditional version of
+generative adversarial nets, which can be constructed by simply feeding the
+data, y, we wish to condition on to both the generator and discriminator. We
+show that this model can generate MNIST digits conditioned on class labels. We
+also illustrate how this model could be used to learn a multi-modal model, and
+provide preliminary examples of an application to image tagging in which we
+demonstrate how this approach can generate descriptive tags which are not part
+of training labels.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Mehdi Mirza</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Simon Osindero</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1411.1784v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1411.1784v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

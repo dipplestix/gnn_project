@@ -1,0 +1,38 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1607.06541v1</ns0:id>
+    <ns0:updated>2016-07-22T02:22:44Z</ns0:updated>
+    <ns0:published>2016-07-22T02:22:44Z</ns0:published>
+    <ns0:title>Novel Graph Processor Architecture, Prototype System, and Results</ns0:title>
+    <ns0:summary>  Graph algorithms are increasingly used in applications that exploit large
+databases. However, conventional processor architectures are inadequate for
+handling the throughput and memory requirements of graph computation. Lincoln
+Laboratory's graph-processor architecture represents a rethinking of parallel
+architectures for graph problems. Our processor utilizes innovations that
+include a sparse matrix-based graph instruction set, a cacheless memory system,
+accelerator-based architecture, a systolic sorter, high-bandwidth
+multi-dimensional toroidal communication network, and randomized
+communications. A field-programmable gate array (FPGA) prototype of the new
+graph processor has been developed with significant performance enhancement
+over conventional processors in graph computational throughput.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>William S. Song</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Vitaliy Gleyzer</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Alexei Lomakin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jeremy Kepner</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1109/HPEC.2016.7761635</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1109/HPEC.2016.7761635" rel="related" />
+    <ns1:comment>7 pages, 8 figures, IEEE HPEC 2016</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1607.06541v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1607.06541v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.DC" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.DC" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AR" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

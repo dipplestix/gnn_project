@@ -1,0 +1,35 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1412.3555v1</ns0:id>
+    <ns0:updated>2014-12-11T06:46:53Z</ns0:updated>
+    <ns0:published>2014-12-11T06:46:53Z</ns0:published>
+    <ns0:title>Empirical Evaluation of Gated Recurrent Neural Networks on Sequence
+  Modeling</ns0:title>
+    <ns0:summary>  In this paper we compare different types of recurrent units in recurrent
+neural networks (RNNs). Especially, we focus on more sophisticated units that
+implement a gating mechanism, such as a long short-term memory (LSTM) unit and
+a recently proposed gated recurrent unit (GRU). We evaluate these recurrent
+units on the tasks of polyphonic music modeling and speech signal modeling. Our
+experiments revealed that these advanced recurrent units are indeed better than
+more traditional recurrent units such as tanh units. Also, we found GRU to be
+comparable to LSTM.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Junyoung Chung</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Caglar Gulcehre</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>KyungHyun Cho</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yoshua Bengio</ns0:name>
+    </ns0:author>
+    <ns1:comment>Presented in NIPS 2014 Deep Learning and Representation Learning
+  Workshop</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1412.3555v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1412.3555v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

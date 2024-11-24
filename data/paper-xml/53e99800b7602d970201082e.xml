@@ -1,0 +1,29 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1101.2286v3</ns0:id>
+    <ns0:updated>2012-04-15T11:20:32Z</ns0:updated>
+    <ns0:published>2011-01-12T07:55:51Z</ns0:published>
+    <ns0:title>Group Invariant Scattering</ns0:title>
+    <ns0:summary>  This paper constructs translation invariant operators on L2(R^d), which are
+Lipschitz continuous to the action of diffeomorphisms. A scattering propagator
+is a path ordered product of non-linear and non-commuting operators, each of
+which computes the modulus of a wavelet transform. A local integration defines
+a windowed scattering transform, which is proved to be Lipschitz continuous to
+the action of diffeomorphisms. As the window size increases, it converges to a
+wavelet scattering transform which is translation invariant. Scattering
+coefficients also provide representations of stationary processes. Expected
+values depend upon high order moments and can discriminate processes having the
+same power spectrum. Scattering operators are extended on L2 (G), where G is a
+compact Lie group, and are invariant under the action of G. Combining a
+scattering on L2(R^d) and on Ld (SO(d)) defines a translation and rotation
+invariant scattering on L2(R^d).
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>St&#233;phane Mallat</ns0:name>
+    </ns0:author>
+    <ns1:comment>78 pages, 5 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1101.2286v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1101.2286v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="math.FA" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.FA" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,33 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2004.12681v1</ns0:id>
+    <ns0:updated>2020-04-27T09:59:27Z</ns0:updated>
+    <ns0:published>2020-04-27T09:59:27Z</ns0:published>
+    <ns0:title>Lexically Constrained Neural Machine Translation with Levenshtein
+  Transformer</ns0:title>
+    <ns0:summary>  This paper proposes a simple and effective algorithm for incorporating
+lexical constraints in neural machine translation. Previous work either
+required re-training existing models with the lexical constraints or
+incorporating them during beam search decoding with significantly higher
+computational overheads. Leveraging the flexibility and speed of a recently
+proposed Levenshtein Transformer model (Gu et al., 2019), our method injects
+terminology constraints at inference time without any impact on decoding speed.
+Our method does not require any modification to the training procedure and can
+be easily applied at runtime with custom dictionaries. Experiments on
+English-German WMT datasets show that our approach improves an unconstrained
+baseline and previous approaches.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Raymond Hendy Susanto</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shamil Chollampatt</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Liling Tan</ns0:name>
+    </ns0:author>
+    <ns1:comment>8 pages, In Proceedings of ACL 2020</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/2004.12681v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2004.12681v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,47 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1812.05161v1</ns0:id>
+    <ns0:updated>2018-12-12T21:26:43Z</ns0:updated>
+    <ns0:published>2018-12-12T21:26:43Z</ns0:published>
+    <ns0:title>Estimating Position Bias without Intrusive Interventions</ns0:title>
+    <ns0:summary>  Presentation bias is one of the key challenges when learning from implicit
+feedback in search engines, as it confounds the relevance signal. While it was
+recently shown how counterfactual learning-to-rank (LTR) approaches
+\cite{Joachims/etal/17a} can provably overcome presentation bias when
+observation propensities are known, it remains to show how to effectively
+estimate these propensities. In this paper, we propose the first method for
+producing consistent propensity estimates without manual relevance judgments,
+disruptive interventions, or restrictive relevance modeling assumptions. First,
+we show how to harvest a specific type of intervention data from historic
+feedback logs of multiple different ranking functions, and show that this data
+is sufficient for consistent propensity estimation in the position-based model.
+Second, we propose a new extremum estimator that makes effective use of this
+data. In an empirical evaluation, we find that the new estimator provides
+superior propensity estimates in two real-world systems -- Arxiv Full-text
+Search and Google Drive Search. Beyond these two points, we find that the
+method is robust to a wide range of settings in simulation studies.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Aman Agarwal</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ivan Zaitsev</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xuanhui Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Cheng Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Marc Najork</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Thorsten Joachims</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1145/3289600.3291017</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1145/3289600.3291017" rel="related" />
+    <ns0:link href="http://arxiv.org/abs/1812.05161v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1812.05161v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

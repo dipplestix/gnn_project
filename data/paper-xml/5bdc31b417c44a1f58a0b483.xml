@@ -1,0 +1,29 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1809.10853v3</ns0:id>
+    <ns0:updated>2019-02-22T23:41:46Z</ns0:updated>
+    <ns0:published>2018-09-28T04:30:11Z</ns0:published>
+    <ns0:title>Adaptive Input Representations for Neural Language Modeling</ns0:title>
+    <ns0:summary>  We introduce adaptive input representations for neural language modeling
+which extend the adaptive softmax of Grave et al. (2017) to input
+representations of variable capacity. There are several choices on how to
+factorize the input and output layers, and whether to model words, characters
+or sub-word units. We perform a systematic comparison of popular choices for a
+self-attentional architecture. Our experiments show that models equipped with
+adaptive embeddings are more than twice as fast to train than the popular
+character input CNN while having a lower number of parameters. On the
+WikiText-103 benchmark we achieve 18.7 perplexity, an improvement of 10.5
+perplexity compared to the previously best published result and on the Billion
+Word benchmark, we achieve 23.02 perplexity.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Alexei Baevski</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Michael Auli</ns0:name>
+    </ns0:author>
+    <ns1:comment>12 pages</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1809.10853v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1809.10853v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

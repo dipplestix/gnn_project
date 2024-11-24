@@ -1,0 +1,60 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1706.05394v2</ns0:id>
+    <ns0:updated>2017-07-01T14:26:51Z</ns0:updated>
+    <ns0:published>2017-06-16T18:11:09Z</ns0:published>
+    <ns0:title>A Closer Look at Memorization in Deep Networks</ns0:title>
+    <ns0:summary>  We examine the role of memorization in deep learning, drawing connections to
+capacity, generalization, and adversarial robustness. While deep networks are
+capable of memorizing noise data, our results suggest that they tend to
+prioritize learning simple patterns first. In our experiments, we expose
+qualitative differences in gradient-based optimization of deep neural networks
+(DNNs) on noise vs. real data. We also demonstrate that for appropriately tuned
+explicit regularization (e.g., dropout) we can degrade DNN training performance
+on noise datasets without compromising generalization on real data. Our
+analysis suggests that the notions of effective capacity which are dataset
+independent are unlikely to explain the generalization performance of deep
+networks when trained with gradient based methods because training data itself
+plays an important role in determining the degree of memorization.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Devansh Arpit</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Stanis&#322;aw Jastrz&#281;bski</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Nicolas Ballas</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>David Krueger</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Emmanuel Bengio</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Maxinder S. Kanwal</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tegan Maharaj</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Asja Fischer</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Aaron Courville</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yoshua Bengio</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Simon Lacoste-Julien</ns0:name>
+    </ns0:author>
+    <ns1:comment>Appears in Proceedings of the 34th International Conference on
+  Machine Learning (ICML 2017), Devansh Arpit, Stanis{\l}aw Jastrz\k{e}bski,
+  Nicolas Ballas, and David Krueger contributed equally to this work</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1706.05394v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1706.05394v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

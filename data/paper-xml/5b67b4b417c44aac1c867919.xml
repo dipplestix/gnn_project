@@ -1,0 +1,35 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1807.03748v2</ns0:id>
+    <ns0:updated>2019-01-22T18:47:12Z</ns0:updated>
+    <ns0:published>2018-07-10T16:52:11Z</ns0:published>
+    <ns0:title>Representation Learning with Contrastive Predictive Coding</ns0:title>
+    <ns0:summary>  While supervised learning has enabled great progress in many applications,
+unsupervised learning has not seen such widespread adoption, and remains an
+important and challenging endeavor for artificial intelligence. In this work,
+we propose a universal unsupervised learning approach to extract useful
+representations from high-dimensional data, which we call Contrastive
+Predictive Coding. The key insight of our model is to learn such
+representations by predicting the future in latent space by using powerful
+autoregressive models. We use a probabilistic contrastive loss which induces
+the latent space to capture information that is maximally useful to predict
+future samples. It also makes the model tractable by using negative sampling.
+While most prior work has focused on evaluating representations for a
+particular modality, we demonstrate that our approach is able to learn useful
+representations achieving strong performance on four distinct domains: speech,
+images, text and reinforcement learning in 3D environments.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Aaron van den Oord</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yazhe Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Oriol Vinyals</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1807.03748v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1807.03748v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

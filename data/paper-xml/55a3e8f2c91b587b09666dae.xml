@@ -1,0 +1,35 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/physics/0605087v3</ns0:id>
+    <ns0:updated>2006-07-23T20:25:46Z</ns0:updated>
+    <ns0:published>2006-05-10T18:36:26Z</ns0:published>
+    <ns0:title>Finding community structure in networks using the eigenvectors of
+  matrices</ns0:title>
+    <ns0:summary>  We consider the problem of detecting communities or modules in networks,
+groups of vertices with a higher-than-average density of edges connecting them.
+Previous work indicates that a robust approach to this problem is the
+maximization of the benefit function known as "modularity" over possible
+divisions of a network. Here we show that this maximization process can be
+written in terms of the eigenspectrum of a matrix we call the modularity
+matrix, which plays a role in community detection similar to that played by the
+graph Laplacian in graph partitioning calculations. This result leads us to a
+number of possible algorithms for detecting community structure, as well as
+several other results, including a spectral measure of bipartite structure in
+networks and a new centrality measure that identifies those vertices that
+occupy central positions within the communities to which they belong. The
+algorithms and measures proposed are illustrated with applications to a variety
+of real-world complex networks.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>M. E. J. Newman</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1103/PhysRevE.74.036104</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1103/PhysRevE.74.036104" rel="related" />
+    <ns1:comment>22 pages, 8 figures, minor corrections in this version</ns1:comment>
+    <ns1:journal_ref>Phys. Rev. E 74, 036104 (2006)</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/physics/0605087v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/physics/0605087v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="physics.data-an" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="physics.data-an" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

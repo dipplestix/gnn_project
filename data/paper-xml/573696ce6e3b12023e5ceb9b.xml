@@ -1,0 +1,46 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1502.03044v3</ns0:id>
+    <ns0:updated>2016-04-19T16:43:09Z</ns0:updated>
+    <ns0:published>2015-02-10T19:18:29Z</ns0:published>
+    <ns0:title>Show, Attend and Tell: Neural Image Caption Generation with Visual
+  Attention</ns0:title>
+    <ns0:summary>  Inspired by recent work in machine translation and object detection, we
+introduce an attention based model that automatically learns to describe the
+content of images. We describe how we can train this model in a deterministic
+manner using standard backpropagation techniques and stochastically by
+maximizing a variational lower bound. We also show through visualization how
+the model is able to automatically learn to fix its gaze on salient objects
+while generating the corresponding words in the output sequence. We validate
+the use of attention with state-of-the-art performance on three benchmark
+datasets: Flickr8k, Flickr30k and MS COCO.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Kelvin Xu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jimmy Ba</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ryan Kiros</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kyunghyun Cho</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Aaron Courville</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ruslan Salakhutdinov</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Richard Zemel</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yoshua Bengio</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1502.03044v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1502.03044v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

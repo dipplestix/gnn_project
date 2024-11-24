@@ -1,0 +1,36 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1905.11006v2</ns0:id>
+    <ns0:updated>2019-10-28T07:52:19Z</ns0:updated>
+    <ns0:published>2019-05-27T07:08:12Z</ns0:published>
+    <ns0:title>Levenshtein Transformer</ns0:title>
+    <ns0:summary>  Modern neural sequence generation models are built to either generate tokens
+step-by-step from scratch or (iteratively) modify a sequence of tokens bounded
+by a fixed length. In this work, we develop Levenshtein Transformer, a new
+partially autoregressive model devised for more flexible and amenable sequence
+generation. Unlike previous approaches, the atomic operations of our model are
+insertion and deletion. The combination of them facilitates not only generation
+but also sequence refinement allowing dynamic length changes. We also propose a
+set of new training techniques dedicated at them, effectively exploiting one as
+the other's learning signal thanks to their complementary nature. Experiments
+applying the proposed model achieve comparable performance but much-improved
+efficiency on both generation (e.g. machine translation, text summarization)
+and refinement tasks (e.g. automatic post-editing). We further confirm the
+flexibility of our model by showing a Levenshtein Transformer trained by
+machine translation can straightforwardly be used for automatic post-editing.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Jiatao Gu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Changhan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jake Zhao</ns0:name>
+    </ns0:author>
+    <ns1:comment>17 pages (6 pages appendix). Camera ready, accepted by NeurIPS 2019</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1905.11006v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1905.11006v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

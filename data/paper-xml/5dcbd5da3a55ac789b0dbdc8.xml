@@ -1,0 +1,34 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1911.04965v1</ns0:id>
+    <ns0:updated>2019-11-08T19:16:24Z</ns0:updated>
+    <ns0:published>2019-11-08T19:16:24Z</ns0:published>
+    <ns0:title>Bayesian Graph Convolutional Neural Networks using Node Copying</ns0:title>
+    <ns0:summary>  Graph convolutional neural networks (GCNN) have numerous applications in
+different graph based learning tasks. Although the techniques obtain impressive
+results, they often fall short in accounting for the uncertainty associated
+with the underlying graph structure. In the recently proposed Bayesian GCNN
+(BGCN) framework, this issue is tackled by viewing the observed graph as a
+sample from a parametric random graph model and targeting joint inference of
+the graph and the GCNN weights. In this paper, we introduce an alternative
+generative model for graphs based on copying nodes and incorporate it within
+the BGCN framework. Our approach has the benefit that it uses information
+provided by the node features and training labels in the graph topology
+inference. Experiments show that the proposed algorithm compares favorably to
+the state-of-the-art in benchmark node classification tasks.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Soumyasundar Pal</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Florence Regol</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mark Coates</ns0:name>
+    </ns0:author>
+    <ns1:comment>arXiv admin note: text overlap with arXiv:1910.12132</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1911.04965v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1911.04965v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,45 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1606.04671v4</ns0:id>
+    <ns0:updated>2022-10-22T14:34:44Z</ns0:updated>
+    <ns0:published>2016-06-15T08:20:51Z</ns0:published>
+    <ns0:title>Progressive Neural Networks</ns0:title>
+    <ns0:summary>  Learning to solve complex sequences of tasks--while both leveraging transfer
+and avoiding catastrophic forgetting--remains a key obstacle to achieving
+human-level intelligence. The progressive networks approach represents a step
+forward in this direction: they are immune to forgetting and can leverage prior
+knowledge via lateral connections to previously learned features. We evaluate
+this architecture extensively on a wide variety of reinforcement learning tasks
+(Atari and 3D maze games), and show that it outperforms common baselines based
+on pretraining and finetuning. Using a novel sensitivity measure, we
+demonstrate that transfer occurs at both low-level sensory and high-level
+control layers of the learned policy.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Andrei A. Rusu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Neil C. Rabinowitz</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Guillaume Desjardins</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hubert Soyer</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>James Kirkpatrick</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Koray Kavukcuoglu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Razvan Pascanu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Raia Hadsell</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1606.04671v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1606.04671v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

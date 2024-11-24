@@ -1,0 +1,37 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1611.01603v6</ns0:id>
+    <ns0:updated>2018-06-21T10:53:20Z</ns0:updated>
+    <ns0:published>2016-11-05T04:49:00Z</ns0:published>
+    <ns0:title>Bidirectional Attention Flow for Machine Comprehension</ns0:title>
+    <ns0:summary>  Machine comprehension (MC), answering a query about a given context
+paragraph, requires modeling complex interactions between the context and the
+query. Recently, attention mechanisms have been successfully extended to MC.
+Typically these methods use attention to focus on a small portion of the
+context and summarize it with a fixed-size vector, couple attentions
+temporally, and/or often form a uni-directional attention. In this paper we
+introduce the Bi-Directional Attention Flow (BIDAF) network, a multi-stage
+hierarchical process that represents the context at different levels of
+granularity and uses bi-directional attention flow mechanism to obtain a
+query-aware context representation without early summarization. Our
+experimental evaluations show that our model achieves the state-of-the-art
+results in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze
+test.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Minjoon Seo</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Aniruddha Kembhavi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ali Farhadi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hannaneh Hajishirzi</ns0:name>
+    </ns0:author>
+    <ns1:comment>Published as a conference paper at ICLR 2017</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1611.01603v6" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1611.01603v6" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

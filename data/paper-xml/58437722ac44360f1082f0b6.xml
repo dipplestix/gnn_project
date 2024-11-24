@@ -1,0 +1,40 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1608.07690v1</ns0:id>
+    <ns0:updated>2016-08-27T10:44:54Z</ns0:updated>
+    <ns0:published>2016-08-27T10:44:54Z</ns0:published>
+    <ns0:title>A Boundary Tilting Persepective on the Phenomenon of Adversarial
+  Examples</ns0:title>
+    <ns0:summary>  Deep neural networks have been shown to suffer from a surprising weakness:
+their classification outputs can be changed by small, non-random perturbations
+of their inputs. This adversarial example phenomenon has been explained as
+originating from deep networks being "too linear" (Goodfellow et al., 2014). We
+show here that the linear explanation of adversarial examples presents a number
+of limitations: the formal argument is not convincing, linear classifiers do
+not always suffer from the phenomenon, and when they do their adversarial
+examples are different from the ones affecting deep networks.
+  We propose a new perspective on the phenomenon. We argue that adversarial
+examples exist when the classification boundary lies close to the submanifold
+of sampled data, and present a mathematical analysis of this new perspective in
+the linear case. We define the notion of adversarial strength and show that it
+can be reduced to the deviation angle between the classifier considered and the
+nearest centroid classifier. Then, we show that the adversarial strength can be
+made arbitrarily high independently of the classification performance due to a
+mechanism that we call boundary tilting. This result leads us to defining a new
+taxonomy of adversarial examples. Finally, we show that the adversarial
+strength observed in practice is directly dependent on the level of
+regularisation used and the strongest adversarial examples, symptomatic of
+overfitting, can be avoided by using a proper level of regularisation.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Thomas Tanay</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Lewis Griffin</ns0:name>
+    </ns0:author>
+    <ns1:comment>arXiv admin note: text overlap with arXiv:1412.6572 by other authors</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1608.07690v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1608.07690v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

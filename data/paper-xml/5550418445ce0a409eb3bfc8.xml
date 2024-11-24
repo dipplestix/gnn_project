@@ -1,0 +1,28 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1503.02510v2</ns0:id>
+    <ns0:updated>2015-04-17T23:54:37Z</ns0:updated>
+    <ns0:published>2015-03-09T15:13:38Z</ns0:published>
+    <ns0:title>Compositional Distributional Semantics with Long Short Term Memory</ns0:title>
+    <ns0:summary>  We are proposing an extension of the recursive neural network that makes use
+of a variant of the long short-term memory architecture. The extension allows
+information low in parse trees to be stored in a memory register (the `memory
+cell') and used much later higher up in the parse tree. This provides a
+solution to the vanishing gradient problem and allows the network to capture
+long range dependencies. Experimental results show that our composition
+outperformed the traditional neural-network composition on the Stanford
+Sentiment Treebank.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Phong Le</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Willem Zuidema</ns0:name>
+    </ns0:author>
+    <ns1:comment>10 pages, 7 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1503.02510v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1503.02510v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

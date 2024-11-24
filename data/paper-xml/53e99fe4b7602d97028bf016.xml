@@ -1,0 +1,33 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1404.2188v1</ns0:id>
+    <ns0:updated>2014-04-08T15:46:44Z</ns0:updated>
+    <ns0:published>2014-04-08T15:46:44Z</ns0:published>
+    <ns0:title>A Convolutional Neural Network for Modelling Sentences</ns0:title>
+    <ns0:summary>  The ability to accurately represent sentences is central to language
+understanding. We describe a convolutional architecture dubbed the Dynamic
+Convolutional Neural Network (DCNN) that we adopt for the semantic modelling of
+sentences. The network uses Dynamic k-Max Pooling, a global pooling operation
+over linear sequences. The network handles input sentences of varying length
+and induces a feature graph over the sentence that is capable of explicitly
+capturing short and long-range relations. The network does not rely on a parse
+tree and is easily applicable to any language. We test the DCNN in four
+experiments: small scale binary and multi-class sentiment prediction, six-way
+question classification and Twitter sentiment prediction by distant
+supervision. The network achieves excellent performance in the first three
+tasks and a greater than 25% error reduction in the last task with respect to
+the strongest baseline.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Nal Kalchbrenner</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Edward Grefenstette</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Phil Blunsom</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1404.2188v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1404.2188v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

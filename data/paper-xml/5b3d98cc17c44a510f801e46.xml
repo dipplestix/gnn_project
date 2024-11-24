@@ -1,0 +1,36 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1805.09112v2</ns0:id>
+    <ns0:updated>2018-06-28T17:20:43Z</ns0:updated>
+    <ns0:published>2018-05-23T13:08:07Z</ns0:published>
+    <ns0:title>Hyperbolic Neural Networks</ns0:title>
+    <ns0:summary>  Hyperbolic spaces have recently gained momentum in the context of machine
+learning due to their high capacity and tree-likeliness properties. However,
+the representational power of hyperbolic geometry is not yet on par with
+Euclidean geometry, mostly because of the absence of corresponding hyperbolic
+neural network layers. This makes it hard to use hyperbolic embeddings in
+downstream tasks. Here, we bridge this gap in a principled manner by combining
+the formalism of M\"obius gyrovector spaces with the Riemannian geometry of the
+Poincar\'e model of hyperbolic spaces. As a result, we derive hyperbolic
+versions of important deep learning tools: multinomial logistic regression,
+feed-forward and recurrent neural networks such as gated recurrent units. This
+allows to embed sequential data and perform classification in the hyperbolic
+space. Empirically, we show that, even if hyperbolic optimization tools are
+limited, hyperbolic sentence embeddings either outperform or are on par with
+their Euclidean variants on textual entailment and noisy-prefix recognition
+tasks.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Octavian-Eugen Ganea</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Gary B&#233;cigneul</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Thomas Hofmann</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1805.09112v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1805.09112v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

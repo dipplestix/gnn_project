@@ -1,0 +1,41 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2101.07730v2</ns0:id>
+    <ns0:updated>2021-01-30T00:57:35Z</ns0:updated>
+    <ns0:published>2021-01-19T17:07:08Z</ns0:published>
+    <ns0:title>A Unifying Generative Model for Graph Learning Algorithms: Label
+  Propagation, Graph Convolutions, and Combinations</ns0:title>
+    <ns0:summary>  Semi-supervised learning on graphs is a widely applicable problem in network
+science and machine learning. Two standard algorithms -- label propagation and
+graph neural networks -- both operate by repeatedly passing information along
+edges, the former by passing labels and the latter by passing node features,
+modulated by neural networks. These two types of algorithms have largely
+developed separately, and there is little understanding about the structure of
+network data that would make one of these approaches work particularly well
+compared to the other or when the approaches can be meaningfully combined.
+Here, we develop a Markov random field model for the data generation process of
+node attributes, based on correlations of attributes on and between vertices,
+that motivates and unifies these algorithmic approaches. We show that label
+propagation, a linearized graph convolutional network, and their combination
+can all be derived as conditional expectations under our model, when
+conditioning on different attributes. In addition, the data model highlights
+deficiencies in existing graph neural networks (while producing new algorithmic
+solutions), serves as a rigorous statistical framework for understanding graph
+learning issues such as over-smoothing, creates a testbed for evaluating
+inductive learning performance, and provides a way to sample graphs attributes
+that resemble empirical data. We also find that a new algorithm derived from
+our data generation model, which we call a Linear Graph Convolution, performs
+extremely well in practice on empirical data, and provide theoretical
+justification for why this is the case.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Junteng Jia</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Austin R. Benson</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2101.07730v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2101.07730v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

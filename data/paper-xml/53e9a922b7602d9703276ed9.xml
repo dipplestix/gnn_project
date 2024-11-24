@@ -1,0 +1,36 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1404.4326v1</ns0:id>
+    <ns0:updated>2014-04-16T17:57:01Z</ns0:updated>
+    <ns0:published>2014-04-16T17:57:01Z</ns0:published>
+    <ns0:title>Open Question Answering with Weakly Supervised Embedding Models</ns0:title>
+    <ns0:summary>  Building computers able to answer questions on any subject is a long standing
+goal of artificial intelligence. Promising progress has recently been achieved
+by methods that learn to map questions to logical forms or database queries.
+Such approaches can be effective but at the cost of either large amounts of
+human-labeled data or by defining lexicons and grammars tailored by
+practitioners. In this paper, we instead take the radical approach of learning
+to map questions to vectorial feature representations. By mapping answers into
+the same space one can query any knowledge base independent of its schema,
+without requiring any grammar or lexicon. Our method is trained with a new
+optimization procedure combining stochastic gradient descent followed by a
+fine-tuning step using the weak supervision provided by blending automatically
+and collaboratively generated resources. We empirically demonstrate that our
+model can capture meaningful signals from its noisy supervision leading to
+major improvements over paralex, the only existing method able to be trained on
+similar weakly labeled data.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Antoine Bordes</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jason Weston</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Nicolas Usunier</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1404.4326v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1404.4326v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

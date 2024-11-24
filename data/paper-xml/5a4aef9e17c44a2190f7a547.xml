@@ -1,0 +1,40 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1711.06350v1</ns0:id>
+    <ns0:updated>2017-11-16T23:18:03Z</ns0:updated>
+    <ns0:published>2017-11-16T23:18:03Z</ns0:published>
+    <ns0:title>Towards Deep Learning Models for Psychological State Prediction using
+  Smartphone Data: Challenges and Opportunities</ns0:title>
+    <ns0:summary>  There is an increasing interest in exploiting mobile sensing technologies and
+machine learning techniques for mental health monitoring and intervention.
+Researchers have effectively used contextual information, such as mobility,
+communication and mobile phone usage patterns for quantifying individuals' mood
+and wellbeing. In this paper, we investigate the effectiveness of neural
+network models for predicting users' level of stress by using the location
+information collected by smartphones. We characterize the mobility patterns of
+individuals using the GPS metrics presented in the literature and employ these
+metrics as input to the network. We evaluate our approach on the open-source
+StudentLife dataset. Moreover, we discuss the challenges and trade-offs
+involved in building machine learning models for digital mental health and
+highlight potential future work in this direction.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Gatis Mikelsons</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Matthew Smith</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Abhinav Mehrotra</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mirco Musolesi</ns0:name>
+    </ns0:author>
+    <ns1:comment>6 pages, 2 figures, In Proceedings of the NIPS Workshop on Machine
+  Learning for Healthcare 2017 (ML4H 2017). Colocated with NIPS 2017</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1711.06350v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1711.06350v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

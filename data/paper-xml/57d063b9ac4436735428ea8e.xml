@@ -1,0 +1,38 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1601.04811v6</ns0:id>
+    <ns0:updated>2016-08-06T17:13:04Z</ns0:updated>
+    <ns0:published>2016-01-19T07:09:38Z</ns0:published>
+    <ns0:title>Modeling Coverage for Neural Machine Translation</ns0:title>
+    <ns0:summary>  Attention mechanism has enhanced state-of-the-art Neural Machine Translation
+(NMT) by jointly learning to align and translate. It tends to ignore past
+alignment information, however, which often leads to over-translation and
+under-translation. To address this problem, we propose coverage-based NMT in
+this paper. We maintain a coverage vector to keep track of the attention
+history. The coverage vector is fed to the attention model to help adjust
+future attention, which lets NMT system to consider more about untranslated
+source words. Experiments show that the proposed approach significantly
+improves both translation quality and alignment quality over standard
+attention-based NMT.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Zhaopeng Tu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhengdong Lu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yang Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xiaohua Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hang Li</ns0:name>
+    </ns0:author>
+    <ns1:comment>Add subjective evaluation on top of ACL version: 25% of source words
+  are under-translated by NMT</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1601.04811v6" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1601.04811v6" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

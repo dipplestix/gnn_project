@@ -1,0 +1,29 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1701.04862v1</ns0:id>
+    <ns0:updated>2017-01-17T20:46:21Z</ns0:updated>
+    <ns0:published>2017-01-17T20:46:21Z</ns0:published>
+    <ns0:title>Towards Principled Methods for Training Generative Adversarial Networks</ns0:title>
+    <ns0:summary>  The goal of this paper is not to introduce a single algorithm or method, but
+to make theoretical steps towards fully understanding the training dynamics of
+generative adversarial networks. In order to substantiate our theoretical
+analysis, we perform targeted experiments to verify our assumptions, illustrate
+our claims, and quantify the phenomena. This paper is divided into three
+sections. The first section introduces the problem at hand. The second section
+is dedicated to studying and proving rigorously the problems including
+instability and saturation that arize when training generative adversarial
+networks. The third section examines a practical and theoretically grounded
+direction towards solving these problems, while introducing new tools to study
+them.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Martin Arjovsky</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>L&#233;on Bottou</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1701.04862v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1701.04862v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

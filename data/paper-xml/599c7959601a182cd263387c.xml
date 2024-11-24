@@ -1,0 +1,36 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1705.03122v3</ns0:id>
+    <ns0:updated>2017-07-25T01:40:57Z</ns0:updated>
+    <ns0:published>2017-05-08T23:25:30Z</ns0:published>
+    <ns0:title>Convolutional Sequence to Sequence Learning</ns0:title>
+    <ns0:summary>  The prevalent approach to sequence to sequence learning maps an input
+sequence to a variable length output sequence via recurrent neural networks. We
+introduce an architecture based entirely on convolutional neural networks.
+Compared to recurrent models, computations over all elements can be fully
+parallelized during training and optimization is easier since the number of
+non-linearities is fixed and independent of the input length. Our use of gated
+linear units eases gradient propagation and we equip each decoder layer with a
+separate attention module. We outperform the accuracy of the deep LSTM setup of
+Wu et al. (2016) on both WMT'14 English-German and WMT'14 English-French
+translation at an order of magnitude faster speed, both on GPU and CPU.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Jonas Gehring</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Michael Auli</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>David Grangier</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Denis Yarats</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yann N. Dauphin</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1705.03122v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1705.03122v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

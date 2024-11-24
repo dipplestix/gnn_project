@@ -1,0 +1,43 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1708.01101v1</ns0:id>
+    <ns0:updated>2017-08-03T11:26:04Z</ns0:updated>
+    <ns0:published>2017-08-03T11:26:04Z</ns0:published>
+    <ns0:title>Learning Feature Pyramids for Human Pose Estimation</ns0:title>
+    <ns0:summary>  Articulated human pose estimation is a fundamental yet challenging task in
+computer vision. The difficulty is particularly pronounced in scale variations
+of human body parts when camera view changes or severe foreshortening happens.
+Although pyramid methods are widely used to handle scale changes at inference
+time, learning feature pyramids in deep convolutional neural networks (DCNNs)
+is still not well explored. In this work, we design a Pyramid Residual Module
+(PRMs) to enhance the invariance in scales of DCNNs. Given input features, the
+PRMs learn convolutional filters on various scales of input features, which are
+obtained with different subsampling ratios in a multi-branch network. Moreover,
+we observe that it is inappropriate to adopt existing methods to initialize the
+weights of multi-branch networks, which achieve superior performance than plain
+networks in many tasks recently. Therefore, we provide theoretic derivation to
+extend the current weight initialization scheme to multi-branch network
+structures. We investigate our method on two standard benchmarks for human pose
+estimation. Our approach obtains state-of-the-art results on both benchmarks.
+Code is available at https://github.com/bearpaw/PyraNet.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Wei Yang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shuang Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wanli Ouyang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hongsheng Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xiaogang Wang</ns0:name>
+    </ns0:author>
+    <ns1:comment>Submitted to ICCV 2017</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1708.01101v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1708.01101v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

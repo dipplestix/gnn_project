@@ -1,0 +1,52 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1706.03762v7</ns0:id>
+    <ns0:updated>2023-08-02T00:41:18Z</ns0:updated>
+    <ns0:published>2017-06-12T17:57:34Z</ns0:published>
+    <ns0:title>Attention Is All You Need</ns0:title>
+    <ns0:summary>  The dominant sequence transduction models are based on complex recurrent or
+convolutional neural networks in an encoder-decoder configuration. The best
+performing models also connect the encoder and decoder through an attention
+mechanism. We propose a new simple network architecture, the Transformer, based
+solely on attention mechanisms, dispensing with recurrence and convolutions
+entirely. Experiments on two machine translation tasks show these models to be
+superior in quality while being more parallelizable and requiring significantly
+less time to train. Our model achieves 28.4 BLEU on the WMT 2014
+English-to-German translation task, improving over the existing best results,
+including ensembles by over 2 BLEU. On the WMT 2014 English-to-French
+translation task, our model establishes a new single-model state-of-the-art
+BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction
+of the training costs of the best models from the literature. We show that the
+Transformer generalizes well to other tasks by applying it successfully to
+English constituency parsing both with large and limited training data.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Ashish Vaswani</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Noam Shazeer</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Niki Parmar</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jakob Uszkoreit</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Llion Jones</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Aidan N. Gomez</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Lukasz Kaiser</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Illia Polosukhin</ns0:name>
+    </ns0:author>
+    <ns1:comment>15 pages, 5 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1706.03762v7" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1706.03762v7" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

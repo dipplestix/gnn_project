@@ -1,0 +1,45 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1908.02441v1</ns0:id>
+    <ns0:updated>2019-08-07T05:08:15Z</ns0:updated>
+    <ns0:published>2019-08-07T05:08:15Z</ns0:published>
+    <ns0:title>Symmetric Graph Convolutional Autoencoder for Unsupervised Graph
+  Representation Learning</ns0:title>
+    <ns0:summary>  We propose a symmetric graph convolutional autoencoder which produces a
+low-dimensional latent representation from a graph. In contrast to the existing
+graph autoencoders with asymmetric decoder parts, the proposed autoencoder has
+a newly designed decoder which builds a completely symmetric autoencoder form.
+For the reconstruction of node features, the decoder is designed based on
+Laplacian sharpening as the counterpart of Laplacian smoothing of the encoder,
+which allows utilizing the graph structure in the whole processes of the
+proposed autoencoder architecture. In order to prevent the numerical
+instability of the network caused by the Laplacian sharpening introduction, we
+further propose a new numerically stable form of the Laplacian sharpening by
+incorporating the signed graphs. In addition, a new cost function which finds a
+latent representation and a latent affinity matrix simultaneously is devised to
+boost the performance of image clustering tasks. The experimental results on
+clustering, link prediction and visualization tasks strongly support that the
+proposed model is stable and outperforms various state-of-the-art algorithms.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Jiwoong Park</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Minsik Lee</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hyung Jin Chang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kyuewang Lee</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jin Young Choi</ns0:name>
+    </ns0:author>
+    <ns1:comment>10 pages, 3 figures, ICCV 2019 accepted</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1908.02441v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1908.02441v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

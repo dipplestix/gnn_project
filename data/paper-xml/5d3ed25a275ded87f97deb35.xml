@@ -1,0 +1,45 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2009.00799v1</ns0:id>
+    <ns0:updated>2020-09-02T03:16:48Z</ns0:updated>
+    <ns0:published>2020-09-02T03:16:48Z</ns0:published>
+    <ns0:title>Heterogeneous Graph Neural Network for Recommendation</ns0:title>
+    <ns0:summary>  The prosperous development of e-commerce has spawned diverse recommendation
+systems. As a matter of fact, there exist rich and complex interactions among
+various types of nodes in real-world recommendation systems, which can be
+constructed as heterogeneous graphs. How learn representative node embedding is
+the basis and core of the personalized recommendation system. Meta-path is a
+widely used structure to capture the semantics beneath such interactions and
+show potential ability in improving node embedding. In this paper, we propose
+Heterogeneous Graph neural network for Recommendation (HGRec) which injects
+high-order semantic into node embedding via aggregating multi-hops meta-path
+based neighbors and fuses rich semantics via multiple meta-paths based on
+attention mechanism to get comprehensive node embedding. Experimental results
+demonstrate the importance of rich high-order semantics and also show the
+potentially good interpretability of HGRec.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Jinghan Shi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Houye Ji</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chuan Shi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xiao Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhiqiang Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jun Zhou</ns0:name>
+    </ns0:author>
+    <ns1:journal_ref>2020ICML Workshop</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/2009.00799v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2009.00799v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

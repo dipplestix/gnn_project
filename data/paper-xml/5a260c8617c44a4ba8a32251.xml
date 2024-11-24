@@ -1,0 +1,48 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1710.07346v1</ns0:id>
+    <ns0:updated>2017-10-19T20:46:26Z</ns0:updated>
+    <ns0:published>2017-10-19T20:46:26Z</ns0:published>
+    <ns0:title>Be Your Own Prada: Fashion Synthesis with Structural Coherence</ns0:title>
+    <ns0:summary>  We present a novel and effective approach for generating new clothing on a
+wearer through generative adversarial learning. Given an input image of a
+person and a sentence describing a different outfit, our model "redresses" the
+person as desired, while at the same time keeping the wearer and her/his pose
+unchanged. Generating new outfits with precise regions conforming to a language
+description while retaining wearer's body structure is a new challenging task.
+Existing generative adversarial networks are not ideal in ensuring global
+coherence of structure given both the input photograph and language description
+as conditions. We address this challenge by decomposing the complex generative
+process into two conditional stages. In the first stage, we generate a
+plausible semantic segmentation map that obeys the wearer's pose as a latent
+spatial arrangement. An effective spatial constraint is formulated to guide the
+generation of this semantic segmentation map. In the second stage, a generative
+model with a newly proposed compositional mapping layer is used to render the
+final image with precise regions and textures conditioned on this map. We
+extended the DeepFashion dataset [8] by collecting sentence descriptions for
+79K images. We demonstrate the effectiveness of our approach through both
+quantitative and qualitative evaluations. A user study is also conducted. The
+codes and the data are available at http://mmlab.ie.cuhk.
+edu.hk/projects/FashionGAN/.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Shizhan Zhu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Sanja Fidler</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Raquel Urtasun</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dahua Lin</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chen Change Loy</ns0:name>
+    </ns0:author>
+    <ns1:comment>This is the updated version of our original paper appeared in ICCV
+  2017 proceedings</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1710.07346v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1710.07346v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

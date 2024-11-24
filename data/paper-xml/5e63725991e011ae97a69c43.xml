@@ -1,0 +1,44 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1905.13214v1</ns0:id>
+    <ns0:updated>2019-05-30T17:56:17Z</ns0:updated>
+    <ns0:published>2019-05-30T17:56:17Z</ns0:published>
+    <ns0:title>On Network Design Spaces for Visual Recognition</ns0:title>
+    <ns0:summary>  Over the past several years progress in designing better neural network
+architectures for visual recognition has been substantial. To help sustain this
+rate of progress, in this work we propose to reexamine the methodology for
+comparing network architectures. In particular, we introduce a new comparison
+paradigm of distribution estimates, in which network design spaces are compared
+by applying statistical techniques to populations of sampled models, while
+controlling for confounding factors like network complexity. Compared to
+current methodologies of comparing point and curve estimates of model families,
+distribution estimates paint a more complete picture of the entire design
+landscape. As a case study, we examine design spaces used in neural
+architecture search (NAS). We find significant statistical differences between
+recent NAS design space variants that have been largely overlooked.
+Furthermore, our analysis reveals that the design spaces for standard model
+families like ResNeXt can be comparable to the more complex ones used in recent
+NAS work. We hope these insights into distribution analysis will enable more
+robust progress toward discovering better networks for visual recognition.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Ilija Radosavovic</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Justin Johnson</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Saining Xie</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wan-Yen Lo</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Piotr Doll&#225;r</ns0:name>
+    </ns0:author>
+    <ns1:comment>tech report</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1905.13214v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1905.13214v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,44 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1702.00887v3</ns0:id>
+    <ns0:updated>2017-02-16T17:52:03Z</ns0:updated>
+    <ns0:published>2017-02-03T01:40:45Z</ns0:published>
+    <ns0:title>Structured Attention Networks</ns0:title>
+    <ns0:summary>  Attention networks have proven to be an effective approach for embedding
+categorical inference within a deep neural network. However, for many tasks we
+may want to model richer structural dependencies without abandoning end-to-end
+training. In this work, we experiment with incorporating richer structural
+distributions, encoded using graphical models, within deep networks. We show
+that these structured attention networks are simple extensions of the basic
+attention procedure, and that they allow for extending attention beyond the
+standard soft-selection approach, such as attending to partial segmentations or
+to subtrees. We experiment with two different classes of structured attention
+networks: a linear-chain conditional random field and a graph-based parsing
+model, and describe how these models can be practically implemented as neural
+network layers. Experiments show that this approach is effective for
+incorporating structural biases, and structured attention networks outperform
+baseline attention models on a variety of synthetic and real tasks: tree
+transduction, neural machine translation, question answering, and natural
+language inference. We further find that models trained in this way learn
+interesting unsupervised hidden representations that generalize simple
+attention.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Yoon Kim</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Carl Denton</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Luong Hoang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Alexander M. Rush</ns0:name>
+    </ns0:author>
+    <ns1:comment>ICLR 2017</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1702.00887v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1702.00887v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

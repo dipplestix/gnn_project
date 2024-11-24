@@ -1,0 +1,41 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1610.08401v3</ns0:id>
+    <ns0:updated>2017-03-09T17:01:25Z</ns0:updated>
+    <ns0:published>2016-10-26T16:30:45Z</ns0:published>
+    <ns0:title>Universal adversarial perturbations</ns0:title>
+    <ns0:summary>  Given a state-of-the-art deep neural network classifier, we show the
+existence of a universal (image-agnostic) and very small perturbation vector
+that causes natural images to be misclassified with high probability. We
+propose a systematic algorithm for computing universal perturbations, and show
+that state-of-the-art deep neural networks are highly vulnerable to such
+perturbations, albeit being quasi-imperceptible to the human eye. We further
+empirically analyze these universal perturbations and show, in particular, that
+they generalize very well across neural networks. The surprising existence of
+universal perturbations reveals important geometric correlations among the
+high-dimensional decision boundary of classifiers. It further outlines
+potential security breaches with the existence of single directions in the
+input space that adversaries can possibly exploit to break a classifier on most
+natural images.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Seyed-Mohsen Moosavi-Dezfooli</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Alhussein Fawzi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Omar Fawzi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Pascal Frossard</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted at IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR), 2017</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1610.08401v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1610.08401v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

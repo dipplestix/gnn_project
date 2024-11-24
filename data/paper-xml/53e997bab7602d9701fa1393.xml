@@ -1,0 +1,27 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1605.01988v3</ns0:id>
+    <ns0:updated>2017-03-30T18:24:55Z</ns0:updated>
+    <ns0:published>2016-05-06T16:11:45Z</ns0:published>
+    <ns0:title>LSTM with Working Memory</ns0:title>
+    <ns0:summary>  Previous RNN architectures have largely been superseded by LSTM, or "Long
+Short-Term Memory". Since its introduction, there have been many variations on
+this simple design. However, it is still widely used and we are not aware of a
+gated-RNN architecture that outperforms LSTM in a broad sense while still being
+as simple and efficient. In this paper we propose a modified LSTM-like
+architecture. Our architecture is still simple and achieves better performance
+on the tasks that we tested on. We also introduce a new RNN performance
+benchmark that uses the handwritten digits and stresses several important
+network capabilities.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Andrew Pulver</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Siwei Lyu</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted at IJCNN 2017</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1605.01988v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1605.01988v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

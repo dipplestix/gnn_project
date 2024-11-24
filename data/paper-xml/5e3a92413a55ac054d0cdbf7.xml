@@ -1,0 +1,56 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2002.01169v1</ns0:id>
+    <ns0:updated>2020-02-04T08:33:49Z</ns0:updated>
+    <ns0:published>2020-02-04T08:33:49Z</ns0:published>
+    <ns0:title>Graph Representation Learning via Graphical Mutual Information
+  Maximization</ns0:title>
+    <ns0:summary>  The richness in the content of various information networks such as social
+networks and communication networks provides the unprecedented potential for
+learning high-quality expressive representations without external supervision.
+This paper investigates how to preserve and extract the abundant information
+from graph-structured data into embedding space in an unsupervised manner. To
+this end, we propose a novel concept, Graphical Mutual Information (GMI), to
+measure the correlation between input graphs and high-level hidden
+representations. GMI generalizes the idea of conventional mutual information
+computations from vector space to the graph domain where measuring mutual
+information from two aspects of node features and topological structure is
+indispensable. GMI exhibits several benefits: First, it is invariant to the
+isomorphic transformation of input graphs---an inevitable constraint in many
+existing graph representation learning algorithms; Besides, it can be
+efficiently estimated and maximized by current mutual information estimation
+methods such as MINE; Finally, our theoretical analysis confirms its
+correctness and rationality. With the aid of GMI, we develop an unsupervised
+learning model trained by maximizing GMI between the input and output of a
+graph neural encoder. Considerable experiments on transductive as well as
+inductive node classification and link prediction demonstrate that our method
+outperforms state-of-the-art unsupervised counterparts, and even sometimes
+exceeds the performance of supervised ones.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Zhen Peng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wenbing Huang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Minnan Luo</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Qinghua Zheng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yu Rong</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tingyang Xu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Junzhou Huang</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/2002.01169v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2002.01169v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

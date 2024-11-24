@@ -1,0 +1,57 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1904.10322v1</ns0:id>
+    <ns0:updated>2019-04-20T16:52:18Z</ns0:updated>
+    <ns0:published>2019-04-20T16:52:18Z</ns0:published>
+    <ns0:title>A Neural Influence Diffusion Model for Social Recommendation</ns0:title>
+    <ns0:summary>  Precise user and item embedding learning is the key to building a successful
+recommender system. Traditionally, Collaborative Filtering(CF) provides a way
+to learn user and item embeddings from the user-item interaction history.
+However, the performance is limited due to the sparseness of user behavior
+data. With the emergence of online social networks, social recommender systems
+have been proposed to utilize each user's local neighbors' preferences to
+alleviate the data sparsity for better user embedding modeling. We argue that,
+for each user of a social platform, her potential embedding is influenced by
+her trusted users. As social influence recursively propagates and diffuses in
+the social network, each user's interests change in the recursive process.
+Nevertheless, the current social recommendation models simply developed static
+models by leveraging the local neighbors of each user without simulating the
+recursive diffusion in the global social network, leading to suboptimal
+recommendation performance. In this paper, we propose a deep influence
+propagation model to stimulate how users are influenced by the recursive social
+diffusion process for social recommendation. For each user, the diffusion
+process starts with an initial embedding that fuses the related features and a
+free user latent vector that captures the latent behavior preference. The key
+idea of our proposed model is that we design a layer-wise influence propagation
+structure to model how users' latent embeddings evolve as the social diffusion
+process continues. We further show that our proposed model is general and could
+be applied when the user~(item) attributes or the social network structure is
+not available. Finally, extensive experimental results on two real-world
+datasets clearly show the effectiveness of our proposed model, with more than
+13% performance improvements over the best baselines.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Le Wu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Peijie Sun</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yanjie Fu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Richang Hong</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xiting Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Meng Wang</ns0:name>
+    </ns0:author>
+    <ns1:comment>10 pages, 3 figures. arXiv admin note: text overlap with
+  arXiv:1811.02815</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1904.10322v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1904.10322v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

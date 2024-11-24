@@ -1,0 +1,23 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1612.05924v5</ns0:id>
+    <ns0:updated>2021-11-24T11:55:24Z</ns0:updated>
+    <ns0:published>2016-12-18T14:59:10Z</ns0:published>
+    <ns0:title>Asymmetric Hat Game with three players and three colors</ns0:title>
+    <ns0:summary>  Winning probabilities of The Hat Game (Ebert's Hat Problem) with three
+players and three colors are only known in the symmetric case: all
+probabilities of the colors are equal. This paper solves the asymmetric case:
+probabilities may be different. We find winning probabilies and optimal
+strategies in all cases.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Theo van Uem</ns0:name>
+    </ns0:author>
+    <ns1:comment>it is now part of arXiv:1612.00276 (Ebert's asymmetric Hat Game)</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1612.05924v5" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1612.05924v5" rel="related" type="application/pdf" />
+    <ns1:primary_category term="math.CO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.CO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.DM" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IT" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.IT" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

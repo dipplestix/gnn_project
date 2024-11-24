@@ -1,0 +1,30 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1801.02753v2</ns0:id>
+    <ns0:updated>2018-04-12T22:18:29Z</ns0:updated>
+    <ns0:published>2018-01-09T02:07:26Z</ns0:published>
+    <ns0:title>SketchyGAN: Towards Diverse and Realistic Sketch to Image Synthesis</ns0:title>
+    <ns0:summary>  Synthesizing realistic images from human drawn sketches is a challenging
+problem in computer graphics and vision. Existing approaches either need exact
+edge maps, or rely on retrieval of existing photographs. In this work, we
+propose a novel Generative Adversarial Network (GAN) approach that synthesizes
+plausible images from 50 categories including motorcycles, horses and couches.
+We demonstrate a data augmentation technique for sketches which is fully
+automatic, and we show that the augmented data is helpful to our task. We
+introduce a new network building block suitable for both the generator and
+discriminator which improves the information flow by injecting the input image
+at multiple scales. Compared to state-of-the-art image translation methods, our
+approach generates more realistic images and achieves significantly higher
+Inception Scores.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Wengling Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>James Hays</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted to CVPR 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1801.02753v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1801.02753v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

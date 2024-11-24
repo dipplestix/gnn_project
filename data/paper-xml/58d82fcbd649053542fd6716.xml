@@ -1,0 +1,41 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1612.00584v2</ns0:id>
+    <ns0:updated>2017-03-09T12:36:26Z</ns0:updated>
+    <ns0:published>2016-12-02T07:45:40Z</ns0:published>
+    <ns0:title>Alleviating Overfitting for Polysemous Words for Word Representation
+  Estimation Using Lexicons</ns0:title>
+    <ns0:summary>  Though there are some works on improving distributed word representations
+using lexicons, the improper overfitting of the words that have multiple
+meanings is a remaining issue deteriorating the learning when lexicons are
+used, which needs to be solved. An alternative method is to allocate a vector
+per sense instead of a vector per word. However, the word representations
+estimated in the former way are not as easy to use as the latter one. Our
+previous work uses a probabilistic method to alleviate the overfitting, but it
+is not robust with a small corpus. In this paper, we propose a new neural
+network to estimate distributed word representations using a lexicon and a
+corpus. We add a lexicon layer in the continuous bag-of-words model and a
+threshold node after the output of the lexicon layer. The threshold rejects the
+unreliable outputs of the lexicon layer that are less likely to be the same
+with their inputs. In this way, it alleviates the overfitting of the polysemous
+words. The proposed neural network can be trained using negative sampling,
+which maximizing the log probabilities of target words given the context words,
+by distinguishing the target words from random noises. We compare the proposed
+neural network with the continuous bag-of-words model, the other works
+improving it, and the previous works estimating distributed word
+representations using both a lexicon and a corpus. The experimental results
+show that the proposed neural network is more efficient and balanced for both
+semantic tasks and syntactic tasks than the previous works, and robust to the
+size of the corpus.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Yuanzhi Ke</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Masafumi Hagiwara</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted by IEEE IJCNN 2017. Copyright transferred to IEEE</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1612.00584v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1612.00584v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

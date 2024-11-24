@@ -1,0 +1,41 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1901.09342v4</ns0:id>
+    <ns0:updated>2019-05-03T14:06:45Z</ns0:updated>
+    <ns0:published>2019-01-27T09:29:59Z</ns0:published>
+    <ns0:title>On the Universality of Invariant Networks</ns0:title>
+    <ns0:summary>  Constraining linear layers in neural networks to respect symmetry
+transformations from a group $G$ is a common design principle for invariant
+networks that has found many applications in machine learning.
+  In this paper, we consider a fundamental question that has received little
+attention to date: Can these networks approximate any (continuous) invariant
+function?
+  We tackle the rather general case where $G\leq S_n$ (an arbitrary subgroup of
+the symmetric group) that acts on $\mathbb{R}^n$ by permuting coordinates. This
+setting includes several recent popular invariant networks. We present two main
+results: First, $G$-invariant networks are universal if high-order tensors are
+allowed. Second, there are groups $G$ for which higher-order tensors are
+unavoidable for obtaining universality.
+  $G$-invariant networks consisting of only first-order tensors are of special
+interest due to their practical value. We conclude the paper by proving a
+necessary condition for the universality of $G$-invariant networks that
+incorporate only first-order tensors.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Haggai Maron</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ethan Fetaya</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Nimrod Segol</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yaron Lipman</ns0:name>
+    </ns0:author>
+    <ns1:comment>ICML 2019</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1901.09342v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1901.09342v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

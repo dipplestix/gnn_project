@@ -1,0 +1,45 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1505.07916v1</ns0:id>
+    <ns0:updated>2015-05-29T04:02:55Z</ns0:updated>
+    <ns0:published>2015-05-29T04:02:55Z</ns0:published>
+    <ns0:title>Word-level Symbolic Trajectory Evaluation</ns0:title>
+    <ns0:summary>  Symbolic trajectory evaluation (STE) is a model checking technique that has
+been successfully used to verify industrial designs. Existing implementations
+of STE, however, reason at the level of bits, allowing signals to take values
+in {0, 1, X}. This limits the amount of abstraction that can be achieved, and
+presents inherent limitations to scaling. The main contribution of this paper
+is to show how much more abstract lattices can be derived automatically from
+RTL descriptions, and how a model checker for the general theory of STE
+instantiated with such abstract lattices can be implemented in practice. This
+gives us the first practical word-level STE engine, called STEWord. Experiments
+on a set of designs similar to those used in industry show that STEWord scales
+better than word-level BMC and also bit-level STE.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Supratik Chakraborty</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zurab Khasidashvili</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Carl-Johan H. Seger</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Rajkumar Gajavelly</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tanmay Haldankar</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dinesh Chhatani</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Rakesh Mistry</ns0:name>
+    </ns0:author>
+    <ns1:comment>19 pages, 3 figures, 2 tables, full version of paper in International
+  Conference on Computer-Aided Verification (CAV) 2015</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1505.07916v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1505.07916v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LO" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

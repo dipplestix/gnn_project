@@ -1,0 +1,37 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1709.03842v2</ns0:id>
+    <ns0:updated>2017-09-13T13:05:23Z</ns0:updated>
+    <ns0:published>2017-09-12T13:51:54Z</ns0:published>
+    <ns0:title>ExprGAN: Facial Expression Editing with Controllable Expression
+  Intensity</ns0:title>
+    <ns0:summary>  Facial expression editing is a challenging task as it needs a high-level
+semantic understanding of the input face image. In conventional methods, either
+paired training data is required or the synthetic face resolution is low.
+Moreover, only the categories of facial expression can be changed. To address
+these limitations, we propose an Expression Generative Adversarial Network
+(ExprGAN) for photo-realistic facial expression editing with controllable
+expression intensity. An expression controller module is specially designed to
+learn an expressive and compact expression code in addition to the
+encoder-decoder network. This novel architecture enables the expression
+intensity to be continuously adjusted from low to high. We further show that
+our ExprGAN can be applied for other tasks, such as expression transfer, image
+retrieval, and data augmentation for training improved face expression
+recognition models. To tackle the small size of the training database, an
+effective incremental learning scheme is proposed. Quantitative and qualitative
+evaluations on the widely used Oulu-CASIA dataset demonstrate the effectiveness
+of ExprGAN.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Hui Ding</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kumar Sricharan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Rama Chellappa</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1709.03842v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1709.03842v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

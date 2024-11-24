@@ -1,0 +1,45 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1903.03894v4</ns0:id>
+    <ns0:updated>2019-11-13T22:36:57Z</ns0:updated>
+    <ns0:published>2019-03-10T00:56:26Z</ns0:published>
+    <ns0:title>GNNExplainer: Generating Explanations for Graph Neural Networks</ns0:title>
+    <ns0:summary>  Graph Neural Networks (GNNs) are a powerful tool for machine learning on
+graphs.GNNs combine node feature information with the graph structure by
+recursively passing neural messages along edges of the input graph. However,
+incorporating both graph structure and feature information leads to complex
+models, and explaining predictions made by GNNs remains unsolved. Here we
+propose GNNExplainer, the first general, model-agnostic approach for providing
+interpretable explanations for predictions of any GNN-based model on any
+graph-based machine learning task. Given an instance, GNNExplainer identifies a
+compact subgraph structure and a small subset of node features that have a
+crucial role in GNN's prediction. Further, GNNExplainer can generate consistent
+and concise explanations for an entire class of instances. We formulate
+GNNExplainer as an optimization task that maximizes the mutual information
+between a GNN's prediction and distribution of possible subgraph structures.
+Experiments on synthetic and real-world graphs show that our approach can
+identify important graph structures as well as node features, and outperforms
+baselines by 17.1% on average. GNNExplainer provides a variety of benefits,
+from the ability to visualize semantically relevant structures to
+interpretability, to giving insights into errors of faulty GNNs.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Rex Ying</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dylan Bourgeois</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jiaxuan You</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Marinka Zitnik</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jure Leskovec</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1903.03894v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1903.03894v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

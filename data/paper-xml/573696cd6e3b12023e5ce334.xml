@@ -1,0 +1,39 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1503.03585v8</ns0:id>
+    <ns0:updated>2015-11-18T21:50:51Z</ns0:updated>
+    <ns0:published>2015-03-12T04:51:37Z</ns0:published>
+    <ns0:title>Deep Unsupervised Learning using Nonequilibrium Thermodynamics</ns0:title>
+    <ns0:summary>  A central problem in machine learning involves modeling complex data-sets
+using highly flexible families of probability distributions in which learning,
+sampling, inference, and evaluation are still analytically or computationally
+tractable. Here, we develop an approach that simultaneously achieves both
+flexibility and tractability. The essential idea, inspired by non-equilibrium
+statistical physics, is to systematically and slowly destroy structure in a
+data distribution through an iterative forward diffusion process. We then learn
+a reverse diffusion process that restores structure in data, yielding a highly
+flexible and tractable generative model of the data. This approach allows us to
+rapidly learn, sample from, and evaluate probabilities in deep generative
+models with thousands of layers or time steps, as well as to compute
+conditional and posterior probabilities under the learned model. We
+additionally release an open source reference implementation of the algorithm.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Jascha Sohl-Dickstein</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Eric A. Weiss</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Niru Maheswaranathan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Surya Ganguli</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1503.03585v8" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1503.03585v8" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,47 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1503.03832v3</ns0:id>
+    <ns0:updated>2015-06-17T23:35:47Z</ns0:updated>
+    <ns0:published>2015-03-12T18:10:53Z</ns0:published>
+    <ns0:title>FaceNet: A Unified Embedding for Face Recognition and Clustering</ns0:title>
+    <ns0:summary>  Despite significant recent advances in the field of face recognition,
+implementing face verification and recognition efficiently at scale presents
+serious challenges to current approaches. In this paper we present a system,
+called FaceNet, that directly learns a mapping from face images to a compact
+Euclidean space where distances directly correspond to a measure of face
+similarity. Once this space has been produced, tasks such as face recognition,
+verification and clustering can be easily implemented using standard techniques
+with FaceNet embeddings as feature vectors.
+  Our method uses a deep convolutional network trained to directly optimize the
+embedding itself, rather than an intermediate bottleneck layer as in previous
+deep learning approaches. To train, we use triplets of roughly aligned matching
+/ non-matching face patches generated using a novel online triplet mining
+method. The benefit of our approach is much greater representational
+efficiency: we achieve state-of-the-art face recognition performance using only
+128-bytes per face.
+  On the widely used Labeled Faces in the Wild (LFW) dataset, our system
+achieves a new record accuracy of 99.63%. On YouTube Faces DB it achieves
+95.12%. Our system cuts the error rate in comparison to the best published
+result by 30% on both datasets.
+  We also introduce the concept of harmonic embeddings, and a harmonic triplet
+loss, which describe different versions of face embeddings (produced by
+different networks) that are compatible to each other and allow for direct
+comparison between each other.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Florian Schroff</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dmitry Kalenichenko</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>James Philbin</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1109/CVPR.2015.7298682</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1109/CVPR.2015.7298682" rel="related" />
+    <ns1:comment>Also published, in Proceedings of the IEEE Computer Society
+  Conference on Computer Vision and Pattern Recognition 2015</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1503.03832v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1503.03832v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,64 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1712.05884v2</ns0:id>
+    <ns0:updated>2018-02-16T01:28:23Z</ns0:updated>
+    <ns0:published>2017-12-16T00:51:40Z</ns0:published>
+    <ns0:title>Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram
+  Predictions</ns0:title>
+    <ns0:summary>  This paper describes Tacotron 2, a neural network architecture for speech
+synthesis directly from text. The system is composed of a recurrent
+sequence-to-sequence feature prediction network that maps character embeddings
+to mel-scale spectrograms, followed by a modified WaveNet model acting as a
+vocoder to synthesize timedomain waveforms from those spectrograms. Our model
+achieves a mean opinion score (MOS) of $4.53$ comparable to a MOS of $4.58$ for
+professionally recorded speech. To validate our design choices, we present
+ablation studies of key components of our system and evaluate the impact of
+using mel spectrograms as the input to WaveNet instead of linguistic, duration,
+and $F_0$ features. We further demonstrate that using a compact acoustic
+intermediate representation enables significant simplification of the WaveNet
+architecture.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Jonathan Shen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ruoming Pang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ron J. Weiss</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mike Schuster</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Navdeep Jaitly</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zongheng Yang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Zhifeng Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yu Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yuxuan Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>RJ Skerry-Ryan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Rif A. Saurous</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yannis Agiomyrgiannakis</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yonghui Wu</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted to ICASSP 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1712.05884v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1712.05884v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

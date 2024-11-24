@@ -1,0 +1,39 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1811.07457v1</ns0:id>
+    <ns0:updated>2018-11-19T02:06:09Z</ns0:updated>
+    <ns0:published>2018-11-19T02:06:09Z</ns0:published>
+    <ns0:title>Generalizable Adversarial Training via Spectral Normalization</ns0:title>
+    <ns0:summary>  Deep neural networks (DNNs) have set benchmarks on a wide array of supervised
+learning tasks. Trained DNNs, however, often lack robustness to minor
+adversarial perturbations to the input, which undermines their true
+practicality. Recent works have increased the robustness of DNNs by fitting
+networks using adversarially-perturbed training samples, but the improved
+performance can still be far below the performance seen in non-adversarial
+settings. A significant portion of this gap can be attributed to the decrease
+in generalization performance due to adversarial training. In this work, we
+extend the notion of margin loss to adversarial settings and bound the
+generalization error for DNNs trained under several well-known gradient-based
+attack schemes, motivating an effective regularization scheme based on spectral
+normalization of the DNN's weight matrices. We also provide a
+computationally-efficient method for normalizing the spectral norm of
+convolutional layers with arbitrary stride and padding schemes in deep
+convolutional networks. We evaluate the power of spectral normalization
+extensively on combinations of datasets, network architectures, and adversarial
+training schemes. The code is available at
+https://github.com/jessemzhang/dl_spectral_normalization.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Farzan Farnia</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jesse M. Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>David Tse</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1811.07457v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1811.07457v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

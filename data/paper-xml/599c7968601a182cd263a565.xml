@@ -1,0 +1,42 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1704.01074v4</ns0:id>
+    <ns0:updated>2018-06-01T03:38:59Z</ns0:updated>
+    <ns0:published>2017-04-04T15:44:48Z</ns0:published>
+    <ns0:title>Emotional Chatting Machine: Emotional Conversation Generation with
+  Internal and External Memory</ns0:title>
+    <ns0:summary>  Perception and expression of emotion are key factors to the success of
+dialogue systems or conversational agents. However, this problem has not been
+studied in large-scale conversation generation so far. In this paper, we
+propose Emotional Chatting Machine (ECM) that can generate appropriate
+responses not only in content (relevant and grammatical) but also in emotion
+(emotionally consistent). To the best of our knowledge, this is the first work
+that addresses the emotion factor in large-scale conversation generation. ECM
+addresses the factor using three new mechanisms that respectively (1) models
+the high-level abstraction of emotion expressions by embedding emotion
+categories, (2) captures the change of implicit internal emotion states, and
+(3) uses explicit emotion expressions with an external emotion vocabulary.
+Experiments show that the proposed model can generate responses appropriate not
+only in content but also in emotion.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Hao Zhou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Minlie Huang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tianyang Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xiaoyan Zhu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Bing Liu</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted in AAAI 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1704.01074v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1704.01074v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

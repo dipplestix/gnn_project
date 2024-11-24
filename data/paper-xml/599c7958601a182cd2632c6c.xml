@@ -1,0 +1,48 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1704.04861v1</ns0:id>
+    <ns0:updated>2017-04-17T03:57:34Z</ns0:updated>
+    <ns0:published>2017-04-17T03:57:34Z</ns0:published>
+    <ns0:title>MobileNets: Efficient Convolutional Neural Networks for Mobile Vision
+  Applications</ns0:title>
+    <ns0:summary>  We present a class of efficient models called MobileNets for mobile and
+embedded vision applications. MobileNets are based on a streamlined
+architecture that uses depth-wise separable convolutions to build light weight
+deep neural networks. We introduce two simple global hyper-parameters that
+efficiently trade off between latency and accuracy. These hyper-parameters
+allow the model builder to choose the right sized model for their application
+based on the constraints of the problem. We present extensive experiments on
+resource and accuracy tradeoffs and show strong performance compared to other
+popular models on ImageNet classification. We then demonstrate the
+effectiveness of MobileNets across a wide range of applications and use cases
+including object detection, finegrain classification, face attributes and large
+scale geo-localization.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Andrew G. Howard</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Menglong Zhu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Bo Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dmitry Kalenichenko</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Weijun Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tobias Weyand</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Marco Andreetto</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hartwig Adam</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1704.04861v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1704.04861v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

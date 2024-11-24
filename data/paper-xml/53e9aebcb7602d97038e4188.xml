@@ -1,0 +1,43 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1206.6426v1</ns0:id>
+    <ns0:updated>2012-06-27T19:59:59Z</ns0:updated>
+    <ns0:published>2012-06-27T19:59:59Z</ns0:published>
+    <ns0:title>A Fast and Simple Algorithm for Training Neural Probabilistic Language
+  Models</ns0:title>
+    <ns0:summary>  In spite of their superior performance, neural probabilistic language models
+(NPLMs) remain far less widely used than n-gram models due to their notoriously
+long training times, which are measured in weeks even for moderately-sized
+datasets. Training NPLMs is computationally expensive because they are
+explicitly normalized, which leads to having to consider all words in the
+vocabulary when computing the log-likelihood gradients.
+  We propose a fast and simple algorithm for training NPLMs based on
+noise-contrastive estimation, a newly introduced procedure for estimating
+unnormalized continuous distributions. We investigate the behaviour of the
+algorithm on the Penn Treebank corpus and show that it reduces the training
+times by more than an order of magnitude without affecting the quality of the
+resulting models. The algorithm is also more efficient and much more stable
+than importance sampling because it requires far fewer noise samples to perform
+well.
+  We demonstrate the scalability of the proposed approach by training several
+neural language models on a 47M-word corpus with a 80K-word vocabulary,
+obtaining state-of-the-art results on the Microsoft Research Sentence
+Completion Challenge dataset.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Andriy Mnih</ns0:name>
+      <ns1:affiliation>University College London</ns1:affiliation>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yee Whye Teh</ns0:name>
+      <ns1:affiliation>University College London</ns1:affiliation>
+    </ns0:author>
+    <ns1:comment>Appears in Proceedings of the 29th International Conference on
+  Machine Learning (ICML 2012)</ns1:comment>
+    <ns1:journal_ref>In Proceedings of the 29th International Conference on Machine
+  Learning, pages 1751-1758, 2012</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1206.6426v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1206.6426v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,40 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1812.04606v3</ns0:id>
+    <ns0:updated>2019-01-28T20:34:44Z</ns0:updated>
+    <ns0:published>2018-12-11T18:49:50Z</ns0:published>
+    <ns0:title>Deep Anomaly Detection with Outlier Exposure</ns0:title>
+    <ns0:summary>  It is important to detect anomalous inputs when deploying machine learning
+systems. The use of larger and more complex inputs in deep learning magnifies
+the difficulty of distinguishing between anomalous and in-distribution
+examples. At the same time, diverse image and text data are available in
+enormous quantities. We propose leveraging these data to improve deep anomaly
+detection by training anomaly detectors against an auxiliary dataset of
+outliers, an approach we call Outlier Exposure (OE). This enables anomaly
+detectors to generalize and detect unseen anomalies. In extensive experiments
+on natural language processing and small- and large-scale vision tasks, we find
+that Outlier Exposure significantly improves detection performance. We also
+observe that cutting-edge generative models trained on CIFAR-10 may assign
+higher likelihoods to SVHN images than to CIFAR-10 images; we use OE to
+mitigate this issue. We also analyze the flexibility and robustness of Outlier
+Exposure, and identify characteristics of the auxiliary dataset that improve
+performance.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Dan Hendrycks</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mantas Mazeika</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Thomas Dietterich</ns0:name>
+    </ns0:author>
+    <ns1:comment>ICLR 2019; PyTorch code available at
+  https://github.com/hendrycks/outlier-exposure</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1812.04606v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1812.04606v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

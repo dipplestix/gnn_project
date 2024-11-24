@@ -1,0 +1,32 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1511.02821v2</ns0:id>
+    <ns0:updated>2016-04-05T03:59:15Z</ns0:updated>
+    <ns0:published>2015-11-09T20:04:56Z</ns0:published>
+    <ns0:title>Partial Membership Latent Dirichlet Allocation</ns0:title>
+    <ns0:summary>  Topic models (e.g., pLSA, LDA, SLDA) have been widely used for segmenting
+imagery. These models are confined to crisp segmentation. Yet, there are many
+images in which some regions cannot be assigned a crisp label (e.g., transition
+regions between a foggy sky and the ground or between sand and water at a
+beach). In these cases, a visual word is best represented with partial
+memberships across multiple topics. To address this, we present a partial
+membership latent Dirichlet allocation (PM-LDA) model and associated parameter
+estimation algorithms. Experimental results on two natural image datasets and
+one SONAR image dataset show that PM-LDA can produce both crisp and soft
+semantic image segmentations; a capability existing methods do not have.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Chao Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Alina Zare</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>J. Tory Cobb</ns0:name>
+    </ns0:author>
+    <ns1:comment>cut to 6 pages, add sunset results</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1511.02821v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1511.02821v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

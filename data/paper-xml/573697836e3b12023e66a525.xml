@@ -1,0 +1,38 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1704.07709v1</ns0:id>
+    <ns0:updated>2017-04-25T14:19:26Z</ns0:updated>
+    <ns0:published>2017-04-25T14:19:26Z</ns0:published>
+    <ns0:title>Inception Recurrent Convolutional Neural Network for Object Recognition</ns0:title>
+    <ns0:summary>  Deep convolutional neural networks (DCNNs) are an influential tool for
+solving various problems in the machine learning and computer vision fields. In
+this paper, we introduce a new deep learning model called an Inception-
+Recurrent Convolutional Neural Network (IRCNN), which utilizes the power of an
+inception network combined with recurrent layers in DCNN architecture. We have
+empirically evaluated the recognition performance of the proposed IRCNN model
+using different benchmark datasets such as MNIST, CIFAR-10, CIFAR- 100, and
+SVHN. Experimental results show similar or higher recognition accuracy when
+compared to most of the popular DCNNs including the RCNN. Furthermore, we have
+investigated IRCNN performance against equivalent Inception Networks and
+Inception-Residual Networks using the CIFAR-100 dataset. We report about 3.5%,
+3.47% and 2.54% improvement in classification accuracy when compared to the
+RCNN, equivalent Inception Networks, and Inception- Residual Networks on the
+augmented CIFAR- 100 dataset respectively.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Md Zahangir Alom</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mahmudul Hasan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chris Yakopcic</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tarek M. Taha</ns0:name>
+    </ns0:author>
+    <ns1:comment>11 pages, 10 figures, 2 tables</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1704.07709v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1704.07709v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

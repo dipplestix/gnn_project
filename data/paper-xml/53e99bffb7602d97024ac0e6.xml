@@ -1,0 +1,24 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1308.0850v5</ns0:id>
+    <ns0:updated>2014-06-05T16:04:02Z</ns0:updated>
+    <ns0:published>2013-08-04T21:04:36Z</ns0:published>
+    <ns0:title>Generating Sequences With Recurrent Neural Networks</ns0:title>
+    <ns0:summary>  This paper shows how Long Short-term Memory recurrent neural networks can be
+used to generate complex sequences with long-range structure, simply by
+predicting one data point at a time. The approach is demonstrated for text
+(where the data are discrete) and online handwriting (where the data are
+real-valued). It is then extended to handwriting synthesis by allowing the
+network to condition its predictions on a text sequence. The resulting system
+is able to generate highly realistic cursive handwriting in a wide variety of
+styles.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Alex Graves</ns0:name>
+    </ns0:author>
+    <ns1:comment>Thanks to Peng Liu and Sergey Zyrianov for various corrections</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1308.0850v5" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1308.0850v5" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

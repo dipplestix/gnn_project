@@ -1,0 +1,46 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1612.08207v1</ns0:id>
+    <ns0:updated>2016-12-24T17:32:48Z</ns0:updated>
+    <ns0:published>2016-12-24T17:32:48Z</ns0:published>
+    <ns0:title>Ideology Detection for Twitter Users with Heterogeneous Types of Links</ns0:title>
+    <ns0:summary>  The problem of ideology detection is to study the latent (political)
+placement for people, which is traditionally studied on politicians according
+to their voting behaviors. Recently, more and more studies begin to address the
+ideology detection problem for ordinary users based on their online behaviors
+that can be captured by social media, e.g., Twitter. As far as we are
+concerned, however, the vast majority of the existing methods on ideology
+detection on social media have oversimplified the problem as a binary
+classification problem (i.e., liberal vs. conservative). Moreover, though
+social links can play a critical role in deciding one's ideology, most of the
+existing work ignores the heterogeneous types of links in social media. In this
+paper we propose to detect \emph{numerical} ideology positions for Twitter
+users, according to their \emph{follow}, \emph{mention}, and \emph{retweet}
+links to a selected set of politicians. A unified probabilistic model is
+proposed that can (1) explain the reasons why links are built among people in
+terms of their ideology, (2) integrate heterogeneous types of links together in
+determining people's ideology, and (3) automatically learn the quality of each
+type of links in deciding one's ideology. Experiments have demonstrated the
+advantages of our model in terms of both ranking and political leaning
+classification accuracy. It is shown that (1) using multiple types of links is
+better than using any single type of links alone to determine one's ideology,
+and (2) our model is even more superior than baselines when dealing with people
+that are sparsely linked in one type of links. We also show that the detected
+ideology for Twitter users aligns with our intuition quite well.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Yupeng Gu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ting Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yizhou Sun</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Bingyu Wang</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1612.08207v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1612.08207v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

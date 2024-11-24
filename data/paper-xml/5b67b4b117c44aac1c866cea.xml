@@ -1,0 +1,30 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1807.03039v2</ns0:id>
+    <ns0:updated>2018-07-10T05:12:03Z</ns0:updated>
+    <ns0:published>2018-07-09T10:57:26Z</ns0:published>
+    <ns0:title>Glow: Generative Flow with Invertible 1x1 Convolutions</ns0:title>
+    <ns0:summary>  Flow-based generative models (Dinh et al., 2014) are conceptually attractive
+due to tractability of the exact log-likelihood, tractability of exact
+latent-variable inference, and parallelizability of both training and
+synthesis. In this paper we propose Glow, a simple type of generative flow
+using an invertible 1x1 convolution. Using our method we demonstrate a
+significant improvement in log-likelihood on standard benchmarks. Perhaps most
+strikingly, we demonstrate that a generative model optimized towards the plain
+log-likelihood objective is capable of efficient realistic-looking synthesis
+and manipulation of large images. The code for our model is available at
+https://github.com/openai/glow
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Diederik P. Kingma</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Prafulla Dhariwal</ns0:name>
+    </ns0:author>
+    <ns1:comment>15 pages; fixed typo in abstract</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1807.03039v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1807.03039v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,30 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1304.6763v2</ns0:id>
+    <ns0:updated>2014-01-10T20:35:56Z</ns0:updated>
+    <ns0:published>2013-04-24T21:50:03Z</ns0:published>
+    <ns0:title>Deep Scattering Spectrum</ns0:title>
+    <ns0:summary>  A scattering transform defines a locally translation invariant representation
+which is stable to time-warping deformations. It extends MFCC representations
+by computing modulation spectrum coefficients of multiple orders, through
+cascades of wavelet convolutions and modulus operators. Second-order scattering
+coefficients characterize transient phenomena such as attacks and amplitude
+modulation. A frequency transposition invariant representation is obtained by
+applying a scattering transform along log-frequency. State-the-of-art
+classification results are obtained for musical genre and phone classification
+on GTZAN and TIMIT databases, respectively.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Joakim And&#233;n</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>St&#233;phane Mallat</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1109/TSP.2014.2326991</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1109/TSP.2014.2326991" rel="related" />
+    <ns0:link href="http://arxiv.org/abs/1304.6763v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1304.6763v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.SD" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SD" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IT" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="math.IT" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

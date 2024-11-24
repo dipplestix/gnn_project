@@ -1,0 +1,34 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1412.6980v9</ns0:id>
+    <ns0:updated>2017-01-30T01:27:54Z</ns0:updated>
+    <ns0:published>2014-12-22T13:54:29Z</ns0:published>
+    <ns0:title>Adam: A Method for Stochastic Optimization</ns0:title>
+    <ns0:summary>  We introduce Adam, an algorithm for first-order gradient-based optimization
+of stochastic objective functions, based on adaptive estimates of lower-order
+moments. The method is straightforward to implement, is computationally
+efficient, has little memory requirements, is invariant to diagonal rescaling
+of the gradients, and is well suited for problems that are large in terms of
+data and/or parameters. The method is also appropriate for non-stationary
+objectives and problems with very noisy and/or sparse gradients. The
+hyper-parameters have intuitive interpretations and typically require little
+tuning. Some connections to related algorithms, on which Adam was inspired, are
+discussed. We also analyze the theoretical convergence properties of the
+algorithm and provide a regret bound on the convergence rate that is comparable
+to the best known results under the online convex optimization framework.
+Empirical results demonstrate that Adam works well in practice and compares
+favorably to other stochastic optimization methods. Finally, we discuss AdaMax,
+a variant of Adam based on the infinity norm.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Diederik P. Kingma</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jimmy Ba</ns0:name>
+    </ns0:author>
+    <ns1:comment>Published as a conference paper at the 3rd International Conference
+  for Learning Representations, San Diego, 2015</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1412.6980v9" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1412.6980v9" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

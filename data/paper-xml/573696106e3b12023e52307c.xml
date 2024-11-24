@@ -1,0 +1,40 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1506.02626v3</ns0:id>
+    <ns0:updated>2015-10-30T23:29:27Z</ns0:updated>
+    <ns0:published>2015-06-08T19:28:43Z</ns0:published>
+    <ns0:title>Learning both Weights and Connections for Efficient Neural Networks</ns0:title>
+    <ns0:summary>  Neural networks are both computationally intensive and memory intensive,
+making them difficult to deploy on embedded systems. Also, conventional
+networks fix the architecture before training starts; as a result, training
+cannot improve the architecture. To address these limitations, we describe a
+method to reduce the storage and computation required by neural networks by an
+order of magnitude without affecting their accuracy by learning only the
+important connections. Our method prunes redundant connections using a
+three-step method. First, we train the network to learn which connections are
+important. Next, we prune the unimportant connections. Finally, we retrain the
+network to fine tune the weights of the remaining connections. On the ImageNet
+dataset, our method reduced the number of parameters of AlexNet by a factor of
+9x, from 61 million to 6.7 million, without incurring accuracy loss. Similar
+experiments with VGG-16 found that the number of parameters can be reduced by
+13x, from 138 million to 10.3 million, again with no loss of accuracy.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Song Han</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jeff Pool</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>John Tran</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>William J. Dally</ns0:name>
+    </ns0:author>
+    <ns1:comment>Published as a conference paper at NIPS 2015</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1506.02626v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1506.02626v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

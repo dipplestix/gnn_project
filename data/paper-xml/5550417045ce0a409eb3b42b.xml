@@ -1,0 +1,36 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1412.6564v2</ns0:id>
+    <ns0:updated>2015-04-10T19:03:34Z</ns0:updated>
+    <ns0:published>2014-12-20T00:31:30Z</ns0:published>
+    <ns0:title>Move Evaluation in Go Using Deep Convolutional Neural Networks</ns0:title>
+    <ns0:summary>  The game of Go is more challenging than other board games, due to the
+difficulty of constructing a position or move evaluation function. In this
+paper we investigate whether deep convolutional networks can be used to
+directly represent and learn this knowledge. We train a large 12-layer
+convolutional neural network by supervised learning from a database of human
+professional games. The network correctly predicts the expert move in 55% of
+positions, equalling the accuracy of a 6 dan human player. When the trained
+convolutional network was used directly to play games of Go, without any
+search, it beat the traditional search program GnuGo in 97% of games, and
+matched the performance of a state-of-the-art Monte-Carlo tree search that
+simulates a million positions per move.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Chris J. Maddison</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Aja Huang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ilya Sutskever</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>David Silver</ns0:name>
+    </ns0:author>
+    <ns1:comment>Minor edits and included captures in Figure 2</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1412.6564v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1412.6564v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

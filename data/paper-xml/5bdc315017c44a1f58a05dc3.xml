@@ -1,0 +1,49 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1912.00461v2</ns0:id>
+    <ns0:updated>2020-07-16T12:16:06Z</ns0:updated>
+    <ns0:published>2019-12-01T18:13:23Z</ns0:published>
+    <ns0:title>AdvPC: Transferable Adversarial Perturbations on 3D Point Clouds</ns0:title>
+    <ns0:summary>  Deep neural networks are vulnerable to adversarial attacks, in which
+imperceptible perturbations to their input lead to erroneous network
+predictions. This phenomenon has been extensively studied in the image domain,
+and has only recently been extended to 3D point clouds. In this work, we
+present novel data-driven adversarial attacks against 3D point cloud networks.
+We aim to address the following problems in current 3D point cloud adversarial
+attacks: they do not transfer well between different networks, and they are
+easy to defend against via simple statistical methods. To this extent, we
+develop a new point cloud attack (dubbed AdvPC) that exploits the input data
+distribution by adding an adversarial loss, after Auto-Encoder reconstruction,
+to the objective it optimizes. AdvPC leads to perturbations that are resilient
+against current defenses, while remaining highly transferable compared to
+state-of-the-art attacks. We test AdvPC using four popular point cloud
+networks: PointNet, PointNet++ (MSG and SSG), and DGCNN. Our proposed attack
+increases the attack success rate by up to 40% for those transferred to unseen
+networks (transferability), while maintaining a high success rate on the
+attacked network. AdvPC also increases the ability to break defenses by up to
+38% as compared to other baselines on the ModelNet40 dataset.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Abdullah Hamdi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Sara Rojas</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ali Thabet</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Bernard Ghanem</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1007/978-3-030-58610-2_15</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1007/978-3-030-58610-2_15" rel="related" />
+    <ns1:comment>Presented at European conference on computer vision (ECCV), 2020. The
+  code is available at https://github.com/ajhamdi/AdvPC</ns1:comment>
+    <ns1:journal_ref>ECCV 2020</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1912.00461v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1912.00461v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="68T45" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,44 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1703.06211v3</ns0:id>
+    <ns0:updated>2017-06-05T10:08:50Z</ns0:updated>
+    <ns0:published>2017-03-17T21:58:20Z</ns0:published>
+    <ns0:title>Deformable Convolutional Networks</ns0:title>
+    <ns0:summary>  Convolutional neural networks (CNNs) are inherently limited to model
+geometric transformations due to the fixed geometric structures in its building
+modules. In this work, we introduce two new modules to enhance the
+transformation modeling capacity of CNNs, namely, deformable convolution and
+deformable RoI pooling. Both are based on the idea of augmenting the spatial
+sampling locations in the modules with additional offsets and learning the
+offsets from target tasks, without additional supervision. The new modules can
+readily replace their plain counterparts in existing CNNs and can be easily
+trained end-to-end by standard back-propagation, giving rise to deformable
+convolutional networks. Extensive experiments validate the effectiveness of our
+approach on sophisticated vision tasks of object detection and semantic
+segmentation. The code would be released.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Jifeng Dai</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Haozhi Qi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yuwen Xiong</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yi Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Guodong Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Han Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yichen Wei</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1703.06211v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1703.06211v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

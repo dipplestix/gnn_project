@@ -1,0 +1,49 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1806.02371v1</ns0:id>
+    <ns0:updated>2018-06-06T18:23:33Z</ns0:updated>
+    <ns0:published>2018-06-06T18:23:33Z</ns0:published>
+    <ns0:title>Adversarial Attack on Graph Structured Data</ns0:title>
+    <ns0:summary>  Deep learning on graph structures has shown exciting results in various
+applications. However, few attentions have been paid to the robustness of such
+models, in contrast to numerous research work for image or text adversarial
+attack and defense. In this paper, we focus on the adversarial attacks that
+fool the model by modifying the combinatorial structure of data. We first
+propose a reinforcement learning based attack method that learns the
+generalizable attack policy, while only requiring prediction labels from the
+target classifier. Also, variants of genetic algorithms and gradient methods
+are presented in the scenario where prediction confidence or gradients are
+available. We use both synthetic and real-world data to show that, a family of
+Graph Neural Network models are vulnerable to these attacks, in both
+graph-level and node-level classification tasks. We also show such attacks can
+be used to diagnose the learned classifiers.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Hanjun Dai</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hui Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tian Tian</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xin Huang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Lin Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jun Zhu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Le Song</ns0:name>
+    </ns0:author>
+    <ns1:comment>to appear in ICML 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1806.02371v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1806.02371v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

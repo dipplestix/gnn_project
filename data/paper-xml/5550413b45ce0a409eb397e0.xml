@@ -1,0 +1,51 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1412.6596v3</ns0:id>
+    <ns0:updated>2015-04-15T19:48:37Z</ns0:updated>
+    <ns0:published>2014-12-20T04:11:33Z</ns0:published>
+    <ns0:title>Training Deep Neural Networks on Noisy Labels with Bootstrapping</ns0:title>
+    <ns0:summary>  Current state-of-the-art deep learning systems for visual object recognition
+and detection use purely supervised training with regularization such as
+dropout to avoid overfitting. The performance depends critically on the amount
+of labeled examples, and in current practice the labels are assumed to be
+unambiguous and accurate. However, this assumption often does not hold; e.g. in
+recognition, class labels may be missing; in detection, objects in the image
+may not be localized; and in general, the labeling may be subjective. In this
+work we propose a generic way to handle noisy and incomplete labeling by
+augmenting the prediction objective with a notion of consistency. We consider a
+prediction consistent if the same prediction is made given similar percepts,
+where the notion of similarity is between deep network features computed from
+the input data. In experiments we demonstrate that our approach yields
+substantial robustness to label noise on several datasets. On MNIST handwritten
+digits, we show that our model is robust to label corruption. On the Toronto
+Face Database, we show that our model handles well the case of subjective
+labels in emotion recognition, achieving state-of-the- art results, and can
+also benefit from unlabeled face images with no modification to our method. On
+the ILSVRC2014 detection challenge data, we show that our approach extends to
+very deep networks, high resolution images and structured outputs, and results
+in improved scalable detection.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Scott Reed</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Honglak Lee</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dragomir Anguelov</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Christian Szegedy</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dumitru Erhan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Andrew Rabinovich</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1412.6596v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1412.6596v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

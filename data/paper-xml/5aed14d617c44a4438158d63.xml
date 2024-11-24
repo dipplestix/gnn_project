@@ -1,0 +1,47 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1803.06253v1</ns0:id>
+    <ns0:updated>2018-03-16T14:48:58Z</ns0:updated>
+    <ns0:published>2018-03-16T14:48:58Z</ns0:published>
+    <ns0:title>Land cover mapping at very high resolution with rotation equivariant
+  CNNs: towards small yet accurate models</ns0:title>
+    <ns0:summary>  In remote sensing images, the absolute orientation of objects is arbitrary.
+Depending on an object's orientation and on a sensor's flight path, objects of
+the same semantic class can be observed in different orientations in the same
+image. Equivariance to rotation, in this context understood as responding with
+a rotated semantic label map when subject to a rotation of the input image, is
+therefore a very desirable feature, in particular for high capacity models,
+such as Convolutional Neural Networks (CNNs). If rotation equivariance is
+encoded in the network, the model is confronted with a simpler task and does
+not need to learn specific (and redundant) weights to address rotated versions
+of the same object class. In this work we propose a CNN architecture called
+Rotation Equivariant Vector Field Network (RotEqNet) to encode rotation
+equivariance in the network itself. By using rotating convolutions as building
+blocks and passing only the the values corresponding to the maximally
+activating orientation throughout the network in the form of orientation
+encoding vector fields, RotEqNet treats rotated versions of the same object
+with the same filter bank and therefore achieves state-of-the-art performances
+even when using very small architectures trained from scratch. We test RotEqNet
+in two challenging sub-decimeter resolution semantic labeling problems, and
+show that we can perform better than a standard CNN while requiring one order
+of magnitude less parameters.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Diego Marcos</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Michele Volpi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Benjamin Kellenberger</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Devis Tuia</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1016/j.isprsjprs.2018.01.021</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1016/j.isprsjprs.2018.01.021" rel="related" />
+    <ns1:journal_ref>ISPRS Journal of Photogrammetry and Remote Sensing, 2018</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1803.06253v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1803.06253v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

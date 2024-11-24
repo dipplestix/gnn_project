@@ -1,0 +1,41 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1606.06357v1</ns0:id>
+    <ns0:updated>2016-06-20T22:52:48Z</ns0:updated>
+    <ns0:published>2016-06-20T22:52:48Z</ns0:published>
+    <ns0:title>Complex Embeddings for Simple Link Prediction</ns0:title>
+    <ns0:summary>  In statistical relational learning, the link prediction problem is key to
+automatically understand the structure of large knowledge bases. As in previous
+studies, we propose to solve this problem through latent factorization.
+However, here we make use of complex valued embeddings. The composition of
+complex embeddings can handle a large variety of binary relations, among them
+symmetric and antisymmetric relations. Compared to state-of-the-art models such
+as Neural Tensor Network and Holographic Embeddings, our approach based on
+complex embeddings is arguably simpler, as it only uses the Hermitian dot
+product, the complex counterpart of the standard dot product between real
+vectors. Our approach is scalable to large datasets as it remains linear in
+both space and time, while consistently outperforming alternative approaches on
+standard link prediction benchmarks.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Th&#233;o Trouillon</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Johannes Welbl</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Sebastian Riedel</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>&#201;ric Gaussier</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Guillaume Bouchard</ns0:name>
+    </ns0:author>
+    <ns1:comment>10+2 pages, accepted at ICML 2016</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1606.06357v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1606.06357v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

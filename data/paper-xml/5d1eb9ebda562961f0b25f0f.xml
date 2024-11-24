@@ -1,0 +1,37 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1906.07337v1</ns0:id>
+    <ns0:updated>2019-06-18T01:58:56Z</ns0:updated>
+    <ns0:published>2019-06-18T01:58:56Z</ns0:published>
+    <ns0:title>Measuring Bias in Contextualized Word Representations</ns0:title>
+    <ns0:summary>  Contextual word embeddings such as BERT have achieved state of the art
+performance in numerous NLP tasks. Since they are optimized to capture the
+statistical properties of training data, they tend to pick up on and amplify
+social stereotypes present in the data as well. In this study, we (1)~propose a
+template-based method to quantify bias in BERT; (2)~show that this method
+obtains more consistent results in capturing social biases than the traditional
+cosine based method; and (3)~conduct a case study, evaluating gender bias in a
+downstream task of Gender Pronoun Resolution. Although our case study focuses
+on gender bias, the proposed technique is generalizable to unveiling other
+biases, including in multiclass settings, such as racial and religious biases.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Keita Kurita</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Nidhi Vyas</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ayush Pareek</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Alan W Black</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yulia Tsvetkov</ns0:name>
+    </ns0:author>
+    <ns1:comment>1st ACL Workshop on Gender Bias for Natural Language Processing 2019</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1906.07337v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1906.07337v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

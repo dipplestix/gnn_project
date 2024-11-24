@@ -1,0 +1,43 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/0901.4589v1</ns0:id>
+    <ns0:updated>2009-01-29T00:30:12Z</ns0:updated>
+    <ns0:published>2009-01-29T00:30:12Z</ns0:published>
+    <ns0:title>Biological network comparison using graphlet degree distribution</ns0:title>
+    <ns0:summary>  Analogous to biological sequence comparison, comparing cellular networks is
+an important problem that could provide insight into biological understanding
+and therapeutics. For technical reasons, comparing large networks is
+computationally infeasible, and thus heuristics such as the degree distribution
+have been sought. It is easy to demonstrate that two networks are different by
+simply showing a short list of properties in which they differ. It is much
+harder to show that two networks are similar, as it requires demonstrating
+their similarity in all of their exponentially many properties. Clearly, it is
+computationally prohibitive to analyze all network properties, but the larger
+the number of constraints we impose in determining network similarity, the more
+likely it is that the networks will truly be similar.
+  We introduce a new systematic measure of a network's local structure that
+imposes a large number of similarity constraints on networks being compared. In
+particular, we generalize the degree distribution, which measures the number of
+nodes 'touching' k edges, into distributions measuring the number of nodes
+'touching' k graphlets, where graphlets are small connected non-isomorphic
+subgraphs of a large network. Our new measure of network local structure
+consists of 73 graphlet degree distributions (GDDs) of graphlets with 2-5
+nodes, but it is easily extendible to a greater number of constraints (i.e.
+graphlets). Furthermore, we show a way to combine the 73 GDDs into a network
+'agreement' measure. Based on this new network agreement measure, we show that
+almost all of the 14 eukaryotic PPI networks, including human, are better
+modeled by geometric random graphs than by Erdos-Reny, random scale-free, or
+Barabasi-Albert scale-free networks.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Natasa Przulj</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1093/bioinformatics/btl301</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1093/bioinformatics/btl301" rel="related" />
+    <ns1:comment>Proceedings of the 2006 European Conference on Computational Biology,
+  ECCB'06, Eilat, Israel, January 21-24, 2007</ns1:comment>
+    <ns1:journal_ref>Bioinformatics 2007 23: e177-e183</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/0901.4589v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/0901.4589v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

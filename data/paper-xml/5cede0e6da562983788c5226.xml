@@ -1,0 +1,42 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1904.09751v2</ns0:id>
+    <ns0:updated>2020-02-14T21:56:30Z</ns0:updated>
+    <ns0:published>2019-04-22T07:17:18Z</ns0:published>
+    <ns0:title>The Curious Case of Neural Text Degeneration</ns0:title>
+    <ns0:summary>  Despite considerable advancements with deep neural language models, the
+enigma of neural text degeneration persists when these models are tested as
+text generators. The counter-intuitive empirical observation is that even
+though the use of likelihood as training objective leads to high quality models
+for a broad range of language understanding tasks, using likelihood as a
+decoding objective leads to text that is bland and strangely repetitive.
+  In this paper, we reveal surprising distributional differences between human
+text and machine text. In addition, we find that decoding strategies alone can
+dramatically effect the quality of machine text, even when generated from
+exactly the same neural language model. Our findings motivate Nucleus Sampling,
+a simple but effective method to draw the best out of neural generation. By
+sampling text from the dynamic nucleus of the probability distribution, which
+allows for diversity while effectively truncating the less reliable tail of the
+distribution, the resulting text better demonstrates the quality of human text,
+yielding enhanced diversity without sacrificing fluency and coherence.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Ari Holtzman</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jan Buys</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Li Du</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Maxwell Forbes</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yejin Choi</ns0:name>
+    </ns0:author>
+    <ns1:comment>Published in ICLR 2020</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1904.09751v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1904.09751v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

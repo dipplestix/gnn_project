@@ -1,0 +1,34 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1611.01604v4</ns0:id>
+    <ns0:updated>2018-03-06T22:45:53Z</ns0:updated>
+    <ns0:published>2016-11-05T04:53:40Z</ns0:published>
+    <ns0:title>Dynamic Coattention Networks For Question Answering</ns0:title>
+    <ns0:summary>  Several deep learning models have been proposed for question answering.
+However, due to their single-pass nature, they have no way to recover from
+local maxima corresponding to incorrect answers. To address this problem, we
+introduce the Dynamic Coattention Network (DCN) for question answering. The DCN
+first fuses co-dependent representations of the question and the document in
+order to focus on relevant parts of both. Then a dynamic pointing decoder
+iterates over potential answer spans. This iterative procedure enables the
+model to recover from initial local maxima corresponding to incorrect answers.
+On the Stanford question answering dataset, a single DCN model improves the
+previous state of the art from 71.0% F1 to 75.9%, while a DCN ensemble obtains
+80.4% F1.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Caiming Xiong</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Victor Zhong</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Richard Socher</ns0:name>
+    </ns0:author>
+    <ns1:comment>14 pages, 7 figures, International Conference on Learning
+  Representations 2017</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1611.01604v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1611.01604v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

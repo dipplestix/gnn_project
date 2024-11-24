@@ -1,0 +1,35 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1211.3711v1</ns0:id>
+    <ns0:updated>2012-11-14T19:25:21Z</ns0:updated>
+    <ns0:published>2012-11-14T19:25:21Z</ns0:published>
+    <ns0:title>Sequence Transduction with Recurrent Neural Networks</ns0:title>
+    <ns0:summary>  Many machine learning tasks can be expressed as the transformation---or
+\emph{transduction}---of input sequences into output sequences: speech
+recognition, machine translation, protein secondary structure prediction and
+text-to-speech to name but a few. One of the key challenges in sequence
+transduction is learning to represent both the input and output sequences in a
+way that is invariant to sequential distortions such as shrinking, stretching
+and translating. Recurrent neural networks (RNNs) are a powerful sequence
+learning architecture that has proven capable of learning such representations.
+However RNNs traditionally require a pre-defined alignment between the input
+and output sequences to perform transduction. This is a severe limitation since
+\emph{finding} the alignment is the most difficult aspect of many sequence
+transduction problems. Indeed, even determining the length of the output
+sequence is often challenging. This paper introduces an end-to-end,
+probabilistic sequence transduction system, based entirely on RNNs, that is in
+principle able to transform any input sequence into any finite, discrete output
+sequence. Experimental results for phoneme recognition are provided on the
+TIMIT speech corpus.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Alex Graves</ns0:name>
+    </ns0:author>
+    <ns1:comment>First published in the International Conference of Machine Learning
+  (ICML) 2012 Workshop on Representation Learning</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1211.3711v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1211.3711v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

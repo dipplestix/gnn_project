@@ -1,0 +1,42 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1911.10470v2</ns0:id>
+    <ns0:updated>2020-02-14T07:43:06Z</ns0:updated>
+    <ns0:published>2019-11-24T08:27:42Z</ns0:published>
+    <ns0:title>Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question
+  Answering</ns0:title>
+    <ns0:summary>  Answering questions that require multi-hop reasoning at web-scale
+necessitates retrieving multiple evidence documents, one of which often has
+little lexical or semantic relationship to the question. This paper introduces
+a new graph-based recurrent retrieval approach that learns to retrieve
+reasoning paths over the Wikipedia graph to answer multi-hop open-domain
+questions. Our retriever model trains a recurrent neural network that learns to
+sequentially retrieve evidence paragraphs in the reasoning path by conditioning
+on the previously retrieved documents. Our reader model ranks the reasoning
+paths and extracts the answer span included in the best reasoning path.
+Experimental results show state-of-the-art results in three open-domain QA
+datasets, showcasing the effectiveness and robustness of our method. Notably,
+our method achieves significant improvement in HotpotQA, outperforming the
+previous best model by more than 14 points.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Akari Asai</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kazuma Hashimoto</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hannaneh Hajishirzi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Richard Socher</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Caiming Xiong</ns0:name>
+    </ns0:author>
+    <ns1:comment>Published as a conference paper at ICLR 2020. Code is available at
+  https://github.com/AkariAsai/learning_to_retrieve_reasoning_paths</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1911.10470v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1911.10470v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

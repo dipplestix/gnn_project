@@ -1,0 +1,35 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1603.07954v3</ns0:id>
+    <ns0:updated>2016-09-27T23:33:28Z</ns0:updated>
+    <ns0:published>2016-03-25T16:38:54Z</ns0:published>
+    <ns0:title>Improving Information Extraction by Acquiring External Evidence with
+  Reinforcement Learning</ns0:title>
+    <ns0:summary>  Most successful information extraction systems operate with access to a large
+collection of documents. In this work, we explore the task of acquiring and
+incorporating external evidence to improve extraction accuracy in domains where
+the amount of training data is scarce. This process entails issuing search
+queries, extraction from new sources and reconciliation of extracted values,
+which are repeated until sufficient evidence is collected. We approach the
+problem using a reinforcement learning framework where our model learns to
+select optimal actions based on contextual information. We employ a deep
+Q-network, trained to optimize a reward function that reflects extraction
+accuracy while penalizing extra effort. Our experiments on two databases -- of
+shooting incidents, and food adulteration cases -- demonstrate that our system
+significantly outperforms traditional extractors and a competitive
+meta-classifier baseline.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Karthik Narasimhan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Adam Yala</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Regina Barzilay</ns0:name>
+    </ns0:author>
+    <ns1:comment>Appearing in EMNLP 2016 (12 pages incl. supplementary material)</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1603.07954v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1603.07954v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

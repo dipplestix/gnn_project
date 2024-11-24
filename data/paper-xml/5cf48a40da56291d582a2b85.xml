@@ -1,0 +1,35 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1905.09217v1</ns0:id>
+    <ns0:updated>2019-05-22T16:11:47Z</ns0:updated>
+    <ns0:published>2019-05-22T16:11:47Z</ns0:published>
+    <ns0:title>Deeper Text Understanding for IR with Contextual Neural Language
+  Modeling</ns0:title>
+    <ns0:summary>  Neural networks provide new possibilities to automatically learn complex
+language patterns and query-document relations. Neural IR models have achieved
+promising results in learning query-document relevance patterns, but few
+explorations have been done on understanding the text content of a query or a
+document. This paper studies leveraging a recently-proposed contextual neural
+language model, BERT, to provide deeper text understanding for IR. Experimental
+results demonstrate that the contextual text representations from BERT are more
+effective than traditional word embeddings. Compared to bag-of-words retrieval
+models, the contextual language model can better leverage language structures,
+bringing large improvements on queries written in natural languages. Combining
+the text understanding ability with search knowledge leads to an enhanced
+pre-trained BERT model that can benefit related search tasks where training
+data are limited.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Zhuyun Dai</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jamie Callan</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1145/3331184.3331303</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1145/3331184.3331303" rel="related" />
+    <ns1:comment>In proceedings of SIGIR 2019</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1905.09217v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1905.09217v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

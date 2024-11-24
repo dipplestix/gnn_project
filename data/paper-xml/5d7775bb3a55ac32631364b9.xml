@@ -1,0 +1,43 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1909.03588v2</ns0:id>
+    <ns0:updated>2019-09-10T01:55:22Z</ns0:updated>
+    <ns0:published>2019-09-09T01:59:31Z</ns0:published>
+    <ns0:title>Unsupervised Paraphrasing by Simulated Annealing</ns0:title>
+    <ns0:summary>  Unsupervised paraphrase generation is a promising and important research
+topic in natural language processing. We propose UPSA, a novel approach that
+accomplishes Unsupervised Paraphrasing by Simulated Annealing. We model
+paraphrase generation as an optimization problem and propose a sophisticated
+objective function, involving semantic similarity, expression diversity, and
+language fluency of paraphrases. Then, UPSA searches the sentence space towards
+this objective by performing a sequence of local editing. Our method is
+unsupervised and does not require parallel corpora for training, so it could be
+easily applied to different domains. We evaluate our approach on a variety of
+benchmark datasets, namely, Quora, Wikianswers, MSCOCO, and Twitter. Extensive
+results show that UPSA achieves the state-of-the-art performance compared with
+previous unsupervised methods in terms of both automatic and human evaluations.
+Further, our approach outperforms most existing domain-adapted supervised
+models, showing the generalizability of UPSA.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Xianggen Liu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Lili Mou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Fandong Meng</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Hao Zhou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jie Zhou</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Sen Song</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1909.03588v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1909.03588v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

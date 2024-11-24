@@ -1,0 +1,33 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1405.4053v2</ns0:id>
+    <ns0:updated>2014-05-22T23:23:19Z</ns0:updated>
+    <ns0:published>2014-05-16T07:12:16Z</ns0:published>
+    <ns0:title>Distributed Representations of Sentences and Documents</ns0:title>
+    <ns0:summary>  Many machine learning algorithms require the input to be represented as a
+fixed-length feature vector. When it comes to texts, one of the most common
+fixed-length features is bag-of-words. Despite their popularity, bag-of-words
+features have two major weaknesses: they lose the ordering of the words and
+they also ignore semantics of the words. For example, "powerful," "strong" and
+"Paris" are equally distant. In this paper, we propose Paragraph Vector, an
+unsupervised algorithm that learns fixed-length feature representations from
+variable-length pieces of texts, such as sentences, paragraphs, and documents.
+Our algorithm represents each document by a dense vector which is trained to
+predict words in the document. Its construction gives our algorithm the
+potential to overcome the weaknesses of bag-of-words models. Empirical results
+show that Paragraph Vectors outperform bag-of-words models as well as other
+techniques for text representations. Finally, we achieve new state-of-the-art
+results on several text classification and sentiment analysis tasks.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Quoc V. Le</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Tomas Mikolov</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1405.4053v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1405.4053v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

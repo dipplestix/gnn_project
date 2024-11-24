@@ -1,0 +1,42 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1903.06586v2</ns0:id>
+    <ns0:updated>2019-03-18T03:08:24Z</ns0:updated>
+    <ns0:published>2019-03-15T15:04:22Z</ns0:published>
+    <ns0:title>Selective Kernel Networks</ns0:title>
+    <ns0:summary>  In standard Convolutional Neural Networks (CNNs), the receptive fields of
+artificial neurons in each layer are designed to share the same size. It is
+well-known in the neuroscience community that the receptive field size of
+visual cortical neurons are modulated by the stimulus, which has been rarely
+considered in constructing CNNs. We propose a dynamic selection mechanism in
+CNNs that allows each neuron to adaptively adjust its receptive field size
+based on multiple scales of input information. A building block called
+Selective Kernel (SK) unit is designed, in which multiple branches with
+different kernel sizes are fused using softmax attention that is guided by the
+information in these branches. Different attentions on these branches yield
+different sizes of the effective receptive fields of neurons in the fusion
+layer. Multiple SK units are stacked to a deep network termed Selective Kernel
+Networks (SKNets). On the ImageNet and CIFAR benchmarks, we empirically show
+that SKNet outperforms the existing state-of-the-art architectures with lower
+model complexity. Detailed analyses show that the neurons in SKNet can capture
+target objects with different scales, which verifies the capability of neurons
+for adaptively adjusting their receptive field sizes according to the input.
+The code and models are available at https://github.com/implus/SKNet.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Xiang Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wenhai Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Xiaolin Hu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jian Yang</ns0:name>
+    </ns0:author>
+    <ns1:comment>CVPR 2019</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1903.06586v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1903.06586v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

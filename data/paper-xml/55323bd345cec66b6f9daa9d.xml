@@ -1,0 +1,42 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1406.6312v2</ns0:id>
+    <ns0:updated>2014-11-19T00:18:06Z</ns0:updated>
+    <ns0:published>2014-06-24T17:10:29Z</ns0:published>
+    <ns0:title>Scalable Topical Phrase Mining from Text Corpora</ns0:title>
+    <ns0:summary>  While most topic modeling algorithms model text corpora with unigrams, human
+interpretation often relies on inherent grouping of terms into phrases. As
+such, we consider the problem of discovering topical phrases of mixed lengths.
+Existing work either performs post processing to the inference results of
+unigram-based topic models, or utilizes complex n-gram-discovery topic models.
+These methods generally produce low-quality topical phrases or suffer from poor
+scalability on even moderately-sized datasets. We propose a different approach
+that is both computationally efficient and effective. Our solution combines a
+novel phrase mining framework to segment a document into single and multi-word
+phrases, and a new topic model that operates on the induced document partition.
+Our approach discovers high quality topical phrases with negligible extra cost
+to the bag-of-words topic model in a variety of datasets including research
+publication titles, abstracts, reviews, and news articles.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Ahmed El-Kishky</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yanglei Song</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chi Wang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Clare Voss</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jiawei Han</ns0:name>
+    </ns0:author>
+    <ns1:journal_ref>Proceedings of the VLDB Endowment, Vol. 8(3), pp. 305 - 316, 2014</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1406.6312v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1406.6312v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

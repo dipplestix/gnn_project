@@ -1,0 +1,41 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1707.05572v1</ns0:id>
+    <ns0:updated>2017-07-18T11:48:14Z</ns0:updated>
+    <ns0:published>2017-07-18T11:48:14Z</ns0:published>
+    <ns0:title>Fast Feature Fool: A data independent approach to universal adversarial
+  perturbations</ns0:title>
+    <ns0:summary>  State-of-the-art object recognition Convolutional Neural Networks (CNNs) are
+shown to be fooled by image agnostic perturbations, called universal
+adversarial perturbations. It is also observed that these perturbations
+generalize across multiple networks trained on the same target data. However,
+these algorithms require training data on which the CNNs were trained and
+compute adversarial perturbations via complex optimization. The fooling
+performance of these approaches is directly proportional to the amount of
+available training data. This makes them unsuitable for practical attacks since
+its unreasonable for an attacker to have access to the training data. In this
+paper, for the first time, we propose a novel data independent approach to
+generate image agnostic perturbations for a range of CNNs trained for object
+recognition. We further show that these perturbations are transferable across
+multiple network architectures trained either on same or different data. In the
+absence of data, our method generates universal adversarial perturbations
+efficiently via fooling the features learned at multiple layers thereby causing
+CNNs to misclassify. Experiments demonstrate impressive fooling rates and
+surprising transferability for the proposed universal perturbations generated
+without any training data.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Konda Reddy Mopuri</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Utsav Garg</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>R. Venkatesh Babu</ns0:name>
+    </ns0:author>
+    <ns1:comment>BMVC 2017 and codes are available at
+  https://github.com/utsavgarg/fast-feature-fool</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1707.05572v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1707.05572v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

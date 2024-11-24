@@ -1,0 +1,42 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1511.04854v1</ns0:id>
+    <ns0:updated>2015-11-16T07:55:37Z</ns0:updated>
+    <ns0:published>2015-11-16T07:55:37Z</ns0:published>
+    <ns0:title>A Survey of Heterogeneous Information Network Analysis</ns0:title>
+    <ns0:summary>  Most real systems consist of a large number of interacting, multi-typed
+components, while most contemporary researches model them as homogeneous
+networks, without distinguishing different types of objects and links in the
+networks. Recently, more and more researchers begin to consider these
+interconnected, multi-typed data as heterogeneous information networks, and
+develop structural analysis approaches by leveraging the rich semantic meaning
+of structural types of objects and links in the networks. Compared to widely
+studied homogeneous network, the heterogeneous information network contains
+richer structure and semantic information, which provides plenty of
+opportunities as well as a lot of challenges for data mining. In this paper, we
+provide a survey of heterogeneous information network analysis. We will
+introduce basic concepts of heterogeneous information network analysis, examine
+its developments on different data mining tasks, discuss some advanced topics,
+and point out some future research directions.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Chuan Shi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yitong Li</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jiawei Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Yizhou Sun</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Philip S. Yu</ns0:name>
+    </ns0:author>
+    <ns1:comment>45 pages, 12 figures</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1511.04854v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1511.04854v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

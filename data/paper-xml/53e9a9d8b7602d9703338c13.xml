@@ -1,0 +1,29 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1402.4437v2</ns0:id>
+    <ns0:updated>2014-05-25T12:21:34Z</ns0:updated>
+    <ns0:published>2014-02-18T18:47:41Z</ns0:published>
+    <ns0:title>Learning the Irreducible Representations of Commutative Lie Groups</ns0:title>
+    <ns0:summary>  We present a new probabilistic model of compact commutative Lie groups that
+produces invariant-equivariant and disentangled representations of data. To
+define the notion of disentangling, we borrow a fundamental principle from
+physics that is used to derive the elementary particles of a system from its
+symmetries. Our model employs a newfound Bayesian conjugacy relation that
+enables fully tractable probabilistic inference over compact commutative Lie
+groups -- a class that includes the groups that describe the rotation and
+cyclic translation of images. We train the model on pairs of transformed image
+patches, and show that the learned invariant representation is highly effective
+for classification.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Taco Cohen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Max Welling</ns0:name>
+    </ns0:author>
+    <ns1:journal_ref>Proceedings of the International Conference on Machine Learning,
+  2014</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1402.4437v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1402.4437v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

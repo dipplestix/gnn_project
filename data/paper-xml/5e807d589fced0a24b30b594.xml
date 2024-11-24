@@ -1,0 +1,51 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1901.00596v4</ns0:id>
+    <ns0:updated>2019-12-04T01:43:00Z</ns0:updated>
+    <ns0:published>2019-01-03T03:20:55Z</ns0:published>
+    <ns0:title>A Comprehensive Survey on Graph Neural Networks</ns0:title>
+    <ns0:summary>  Deep learning has revolutionized many machine learning tasks in recent years,
+ranging from image classification and video processing to speech recognition
+and natural language understanding. The data in these tasks are typically
+represented in the Euclidean space. However, there is an increasing number of
+applications where data are generated from non-Euclidean domains and are
+represented as graphs with complex relationships and interdependency between
+objects. The complexity of graph data has imposed significant challenges on
+existing machine learning algorithms. Recently, many studies on extending deep
+learning approaches for graph data have emerged. In this survey, we provide a
+comprehensive overview of graph neural networks (GNNs) in data mining and
+machine learning fields. We propose a new taxonomy to divide the
+state-of-the-art graph neural networks into four categories, namely recurrent
+graph neural networks, convolutional graph neural networks, graph autoencoders,
+and spatial-temporal graph neural networks. We further discuss the applications
+of graph neural networks across various domains and summarize the open source
+codes, benchmark data sets, and model evaluation of graph neural networks.
+Finally, we propose potential research directions in this rapidly growing
+field.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Zonghan Wu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shirui Pan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Fengwen Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Guodong Long</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chengqi Zhang</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Philip S. Yu</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1109/TNNLS.2020.2978386</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1109/TNNLS.2020.2978386" rel="related" />
+    <ns1:comment>Minor revision (updated tables and references)</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1901.00596v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1901.00596v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

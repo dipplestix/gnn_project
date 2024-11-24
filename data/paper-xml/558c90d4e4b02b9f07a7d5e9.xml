@@ -1,0 +1,36 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1303.5778v1</ns0:id>
+    <ns0:updated>2013-03-22T20:55:48Z</ns0:updated>
+    <ns0:published>2013-03-22T20:55:48Z</ns0:published>
+    <ns0:title>Speech Recognition with Deep Recurrent Neural Networks</ns0:title>
+    <ns0:summary>  Recurrent neural networks (RNNs) are a powerful model for sequential data.
+End-to-end training methods such as Connectionist Temporal Classification make
+it possible to train RNNs for sequence labelling problems where the
+input-output alignment is unknown. The combination of these methods with the
+Long Short-term Memory RNN architecture has proved particularly fruitful,
+delivering state-of-the-art results in cursive handwriting recognition. However
+RNN performance in speech recognition has so far been disappointing, with
+better results returned by deep feedforward networks. This paper investigates
+\emph{deep recurrent neural networks}, which combine the multiple levels of
+representation that have proved so effective in deep networks with the flexible
+use of long range context that empowers RNNs. When trained end-to-end with
+suitable regularisation, we find that deep Long Short-term Memory RNNs achieve
+a test set error of 17.7% on the TIMIT phoneme recognition benchmark, which to
+our knowledge is the best recorded score.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Alex Graves</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Abdel-rahman Mohamed</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Geoffrey Hinton</ns0:name>
+    </ns0:author>
+    <ns1:comment>To appear in ICASSP 2013</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1303.5778v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1303.5778v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

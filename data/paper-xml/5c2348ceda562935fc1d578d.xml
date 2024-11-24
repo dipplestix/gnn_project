@@ -1,0 +1,41 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1711.08028v4</ns0:id>
+    <ns0:updated>2018-11-29T15:11:23Z</ns0:updated>
+    <ns0:published>2017-11-21T20:34:48Z</ns0:published>
+    <ns0:title>Recurrent Relational Networks</ns0:title>
+    <ns0:summary>  This paper is concerned with learning to solve tasks that require a chain of
+interdependent steps of relational inference, like answering complex questions
+about the relationships between objects, or solving puzzles where the smaller
+elements of a solution mutually constrain each other. We introduce the
+recurrent relational network, a general purpose module that operates on a graph
+representation of objects. As a generalization of Santoro et al. [2017]'s
+relational network, it can augment any neural network model with the capacity
+to do many-step relational reasoning. We achieve state of the art results on
+the bAbI textual question-answering dataset with the recurrent relational
+network, consistently solving 20/20 tasks. As bAbI is not particularly
+challenging from a relational reasoning point of view, we introduce
+Pretty-CLEVR, a new diagnostic dataset for relational reasoning. In the
+Pretty-CLEVR set-up, we can vary the question to control for the number of
+relational reasoning steps that are required to obtain the answer. Using
+Pretty-CLEVR, we probe the limitations of multi-layer perceptrons, relational
+and recurrent relational networks. Finally, we show how recurrent relational
+networks can learn to solve Sudoku puzzles from supervised training data, a
+challenging task requiring upwards of 64 steps of relational reasoning. We
+achieve state-of-the-art results amongst comparable methods by solving 96.6% of
+the hardest Sudoku puzzles.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Rasmus Berg Palm</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ulrich Paquet</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ole Winther</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted at NIPS 2018</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1711.08028v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1711.08028v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

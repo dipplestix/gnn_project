@@ -1,0 +1,51 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1312.6199v4</ns0:id>
+    <ns0:updated>2014-02-19T16:33:14Z</ns0:updated>
+    <ns0:published>2013-12-21T03:36:08Z</ns0:published>
+    <ns0:title>Intriguing properties of neural networks</ns0:title>
+    <ns0:summary>  Deep neural networks are highly expressive models that have recently achieved
+state of the art performance on speech and visual recognition tasks. While
+their expressiveness is the reason they succeed, it also causes them to learn
+uninterpretable solutions that could have counter-intuitive properties. In this
+paper we report two such properties.
+  First, we find that there is no distinction between individual high level
+units and random linear combinations of high level units, according to various
+methods of unit analysis. It suggests that it is the space, rather than the
+individual units, that contains of the semantic information in the high layers
+of neural networks.
+  Second, we find that deep neural networks learn input-output mappings that
+are fairly discontinuous to a significant extend. We can cause the network to
+misclassify an image by applying a certain imperceptible perturbation, which is
+found by maximizing the network's prediction error. In addition, the specific
+nature of these perturbations is not a random artifact of learning: the same
+perturbation can cause a different network, that was trained on a different
+subset of the dataset, to misclassify the same input.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Christian Szegedy</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Wojciech Zaremba</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ilya Sutskever</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Joan Bruna</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Dumitru Erhan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ian Goodfellow</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Rob Fergus</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1312.6199v4" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1312.6199v4" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.NE" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

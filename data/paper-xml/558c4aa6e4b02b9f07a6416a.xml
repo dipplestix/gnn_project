@@ -1,0 +1,41 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1411.7414v3</ns0:id>
+    <ns0:updated>2015-05-29T14:55:38Z</ns0:updated>
+    <ns0:published>2014-11-26T22:38:08Z</ns0:published>
+    <ns0:title>Signal Recovery on Graphs: Variation Minimization</ns0:title>
+    <ns0:summary>  We consider the problem of signal recovery on graphs as graphs model data
+with complex structure as signals on a graph. Graph signal recovery implies
+recovery of one or multiple smooth graph signals from noisy, corrupted, or
+incomplete measurements. We propose a graph signal model and formulate signal
+recovery as a corresponding optimization problem. We provide a general solution
+by using the alternating direction methods of multipliers. We next show how
+signal inpainting, matrix completion, robust principal component analysis, and
+anomaly detection all relate to graph signal recovery, and provide
+corresponding specific solutions and theoretical analysis. Finally, we validate
+the proposed methods on real-world recovery problems, including online blog
+classification, bridge condition identification, temperature estimation,
+recommender system, and expert opinion combination of online blog
+classification.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Siheng Chen</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Aliaksei Sandryhaila</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jos&#233; M. F. Moura</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Jelena Kova&#269;evi&#263;</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1109/TSP.2015.2441042</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1109/TSP.2015.2441042" rel="related" />
+    <ns1:comment>To appear on IEEE Transactions on Signal Processing</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1411.7414v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1411.7414v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.SI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

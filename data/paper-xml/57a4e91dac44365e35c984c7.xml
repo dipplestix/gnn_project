@@ -1,0 +1,48 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1607.00133v2</ns0:id>
+    <ns0:updated>2016-10-24T11:59:40Z</ns0:updated>
+    <ns0:published>2016-07-01T07:29:10Z</ns0:published>
+    <ns0:title>Deep Learning with Differential Privacy</ns0:title>
+    <ns0:summary>  Machine learning techniques based on neural networks are achieving remarkable
+results in a wide variety of domains. Often, the training of models requires
+large, representative datasets, which may be crowdsourced and contain sensitive
+information. The models should not expose private information in these
+datasets. Addressing this goal, we develop new algorithmic techniques for
+learning and a refined analysis of privacy costs within the framework of
+differential privacy. Our implementation and experiments demonstrate that we
+can train deep neural networks with non-convex objectives, under a modest
+privacy budget, and at a manageable cost in software complexity, training
+efficiency, and model quality.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Mart&#237;n Abadi</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Andy Chu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ian Goodfellow</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>H. Brendan McMahan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ilya Mironov</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Kunal Talwar</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Li Zhang</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1145/2976749.2978318</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1145/2976749.2978318" rel="related" />
+    <ns1:journal_ref>Proceedings of the 2016 ACM SIGSAC Conference on Computer and
+  Communications Security (ACM CCS), pp. 308-318, 2016</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/1607.00133v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1607.00133v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

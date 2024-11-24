@@ -1,0 +1,38 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1703.06856v3</ns0:id>
+    <ns0:updated>2018-03-08T11:23:13Z</ns0:updated>
+    <ns0:published>2017-03-20T17:18:57Z</ns0:published>
+    <ns0:title>Counterfactual Fairness</ns0:title>
+    <ns0:summary>  Machine learning can impact people with legal or ethical consequences when it
+is used to automate decisions in areas such as insurance, lending, hiring, and
+predictive policing. In many of these scenarios, previous decisions have been
+made that are unfairly biased against certain subpopulations, for example those
+of a particular race, gender, or sexual orientation. Since this past data may
+be biased, machine learning predictors must account for this to avoid
+perpetuating or creating discriminatory practices. In this paper, we develop a
+framework for modeling fairness using tools from causal inference. Our
+definition of counterfactual fairness captures the intuition that a decision is
+fair towards an individual if it is the same in (a) the actual world and (b) a
+counterfactual world where the individual belonged to a different demographic
+group. We demonstrate our framework on a real-world problem of fair prediction
+of success in law school.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Matt J. Kusner</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Joshua R. Loftus</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Chris Russell</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Ricardo Silva</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1703.06856v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1703.06856v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CY" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

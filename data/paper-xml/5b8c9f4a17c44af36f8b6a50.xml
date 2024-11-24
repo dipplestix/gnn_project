@@ -1,0 +1,41 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1808.01400v6</ns0:id>
+    <ns0:updated>2019-02-21T14:12:56Z</ns0:updated>
+    <ns0:published>2018-08-04T01:26:07Z</ns0:published>
+    <ns0:title>code2seq: Generating Sequences from Structured Representations of Code</ns0:title>
+    <ns0:summary>  The ability to generate natural language sequences from source code snippets
+has a variety of applications such as code summarization, documentation, and
+retrieval. Sequence-to-sequence (seq2seq) models, adopted from neural machine
+translation (NMT), have achieved state-of-the-art performance on these tasks by
+treating source code as a sequence of tokens. We present ${\rm {\scriptsize
+CODE2SEQ}}$: an alternative approach that leverages the syntactic structure of
+programming languages to better encode source code. Our model represents a code
+snippet as the set of compositional paths in its abstract syntax tree (AST) and
+uses attention to select the relevant paths while decoding. We demonstrate the
+effectiveness of our approach for two tasks, two programming languages, and
+four datasets of up to $16$M examples. Our model significantly outperforms
+previous models that were specifically designed for programming languages, as
+well as state-of-the-art NMT models. An interactive online demo of our model is
+available at http://code2seq.org. Our code, data and trained models are
+available at http://github.com/tech-srl/code2seq.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Uri Alon</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shaked Brody</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Omer Levy</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Eran Yahav</ns0:name>
+    </ns0:author>
+    <ns1:comment>Accepted to ICLR'2019</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1808.01400v6" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1808.01400v6" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.PL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

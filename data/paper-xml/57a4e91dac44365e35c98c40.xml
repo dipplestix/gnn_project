@@ -1,0 +1,35 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1605.02346v2</ns0:id>
+    <ns0:updated>2016-10-23T17:08:29Z</ns0:updated>
+    <ns0:published>2016-05-08T18:52:24Z</ns0:published>
+    <ns0:title>Chained Predictions Using Convolutional Neural Networks</ns0:title>
+    <ns0:summary>  In this paper, we present an adaptation of the sequence-to-sequence model for
+structured output prediction in vision tasks. In this model the output
+variables for a given input are predicted sequentially using neural networks.
+The prediction for each output variable depends not only on the input but also
+on the previously predicted output variables. The model is applied to spatial
+localization tasks and uses convolutional neural networks (CNNs) for processing
+input images and a multi-scale deconvolutional architecture for making spatial
+predictions at each time step. We explore the impact of weight sharing with a
+recurrent connection matrix between consecutive predictions, and compare it to
+a formulation where these weights are not tied. Untied weights are particularly
+suited for problems with a fixed sized structure, where different classes of
+output are predicted in different steps. We show that chained predictions
+achieve top performing results on human pose estimation from single images and
+videos.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Georgia Gkioxari</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Alexander Toshev</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Navdeep Jaitly</ns0:name>
+    </ns0:author>
+    <ns1:comment>in submission to EECV 2016</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1605.02346v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1605.02346v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CV" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,40 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/0807.0093v1</ns0:id>
+    <ns0:updated>2008-07-01T09:46:14Z</ns0:updated>
+    <ns0:published>2008-07-01T09:46:14Z</ns0:published>
+    <ns0:title>Graph Kernels</ns0:title>
+    <ns0:summary>  We present a unified framework to study graph kernels, special cases of which
+include the random walk graph kernel \citep{GaeFlaWro03,BorOngSchVisetal05},
+marginalized graph kernel \citep{KasTsuIno03,KasTsuIno04,MahUedAkuPeretal04},
+and geometric kernel on graphs \citep{Gaertner02}. Through extensions of linear
+algebra to Reproducing Kernel Hilbert Spaces (RKHS) and reduction to a
+Sylvester equation, we construct an algorithm that improves the time complexity
+of kernel computation from $O(n^6)$ to $O(n^3)$. When the graphs are sparse,
+conjugate gradient solvers or fixed-point iterations bring our algorithm into
+the sub-cubic domain. Experiments on graphs from bioinformatics and other
+application domains show that it is often more than a thousand times faster
+than previous approaches. We then explore connections between diffusion kernels
+\citep{KonLaf02}, regularization on graphs \citep{SmoKon03}, and graph kernels,
+and use these connections to propose new graph kernels. Finally, we show that
+rational kernels \citep{CorHafMoh02,CorHafMoh03,CorHafMoh04} when specialized
+to graphs reduce to the random walk graph kernel.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>S. V. N. Vishwanathan</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Karsten M. Borgwardt</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Imre Risi Kondor</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Nicol N. Schraudolph</ns0:name>
+    </ns0:author>
+    <ns1:comment>http://jmlr.csail.mit.edu/papers/v11/vishwanathan10a.html</ns1:comment>
+    <ns1:journal_ref>Journal of Machine Learning Research 11 (Apr): 1201-1242, 2010</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/0807.0093v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/0807.0093v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

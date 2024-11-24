@@ -1,0 +1,33 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1706.02263v2</ns0:id>
+    <ns0:updated>2017-10-25T19:20:03Z</ns0:updated>
+    <ns0:published>2017-06-07T17:05:19Z</ns0:published>
+    <ns0:title>Graph Convolutional Matrix Completion</ns0:title>
+    <ns0:summary>  We consider matrix completion for recommender systems from the point of view
+of link prediction on graphs. Interaction data such as movie ratings can be
+represented by a bipartite user-item graph with labeled edges denoting observed
+ratings. Building on recent progress in deep learning on graph-structured data,
+we propose a graph auto-encoder framework based on differentiable message
+passing on the bipartite interaction graph. Our model shows competitive
+performance on standard collaborative filtering benchmarks. In settings where
+complimentary feature information or structured data such as a social network
+is available, our framework outperforms recent state-of-the-art methods.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Rianne van den Berg</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Thomas N. Kipf</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Max Welling</ns0:name>
+    </ns0:author>
+    <ns1:comment>9 pages, 3 figures, updated with additional experimental evaluation</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1706.02263v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1706.02263v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.DB" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.IR" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

@@ -1,0 +1,38 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1401.4082v3</ns0:id>
+    <ns0:updated>2014-05-30T10:00:36Z</ns0:updated>
+    <ns0:published>2014-01-16T16:33:23Z</ns0:published>
+    <ns0:title>Stochastic Backpropagation and Approximate Inference in Deep Generative
+  Models</ns0:title>
+    <ns0:summary>  We marry ideas from deep neural networks and approximate Bayesian inference
+to derive a generalised class of deep, directed generative models, endowed with
+a new algorithm for scalable inference and learning. Our algorithm introduces a
+recognition model to represent approximate posterior distributions, and that
+acts as a stochastic encoder of the data. We develop stochastic
+back-propagation -- rules for back-propagation through stochastic variables --
+and use this to develop an algorithm that allows for joint optimisation of the
+parameters of both the generative and recognition model. We demonstrate on
+several real-world data sets that the model generates realistic samples,
+provides accurate imputations of missing data and is a useful tool for
+high-dimensional data visualisation.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Danilo Jimenez Rezende</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Shakir Mohamed</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Daan Wierstra</ns0:name>
+    </ns0:author>
+    <ns1:comment>Appears In Proceedings of the 31st International Conference on
+  Machine Learning (ICML), JMLR: W\&amp;CP volume 32, 2014</ns1:comment>
+    <ns0:link href="http://arxiv.org/abs/1401.4082v3" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1401.4082v3" rel="related" type="application/pdf" />
+    <ns1:primary_category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.AI" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.CO" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ME" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

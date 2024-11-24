@@ -1,0 +1,45 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/2002.08274v2</ns0:id>
+    <ns0:updated>2020-06-16T22:18:57Z</ns0:updated>
+    <ns0:published>2020-02-19T16:32:54Z</ns0:published>
+    <ns0:title>Residual Correlation in Graph Neural Network Regression</ns0:title>
+    <ns0:summary>  A graph neural network transforms features in each vertex's neighborhood into
+a vector representation of the vertex. Afterward, each vertex's representation
+is used independently for predicting its label. This standard pipeline
+implicitly assumes that vertex labels are conditionally independent given their
+neighborhood features. However, this is a strong assumption, and we show that
+it is far from true on many real-world graph datasets. Focusing on regression
+tasks, we find that this conditional independence assumption severely limits
+predictive power. This should not be that surprising, given that traditional
+graph-based semi-supervised learning methods such as label propagation work in
+the opposite fashion by explicitly modeling the correlation in predicted
+outcomes.
+  Here, we address this problem with an interpretable and efficient framework
+that can improve any graph neural network architecture simply by exploiting
+correlation structure in the regression residuals. In particular, we model the
+joint distribution of residuals on vertices with a parameterized multivariate
+Gaussian, and estimate the parameters by maximizing the marginal likelihood of
+the observed labels. Our framework achieves substantially higher accuracy than
+competing baselines, and the learned parameters can be interpreted as the
+strength of correlation among connected vertices. Furthermore, we develop
+linear time algorithms for low-variance, unbiased model parameter estimates,
+allowing us to scale to large networks. We also provide a basic version of our
+method that makes stronger assumptions on correlation structure but is painless
+to implement, often leading to great practical performance with minimal
+overhead.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Junteng Jia</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Austin R. Benson</ns0:name>
+    </ns0:author>
+    <ns1:doi>10.1145/3394486.3403101</ns1:doi>
+    <ns0:link title="doi" href="http://dx.doi.org/10.1145/3394486.3403101" rel="related" />
+    <ns1:journal_ref>KDD 2020</ns1:journal_ref>
+    <ns0:link href="http://arxiv.org/abs/2002.08274v2" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/2002.08274v2" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="stat.ML" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>

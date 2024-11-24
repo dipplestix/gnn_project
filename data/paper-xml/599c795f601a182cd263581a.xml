@@ -1,0 +1,46 @@
+<ns0:entry xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://arxiv.org/schemas/atom">
+    <ns0:id>http://arxiv.org/abs/1706.01427v1</ns0:id>
+    <ns0:updated>2017-06-05T17:17:18Z</ns0:updated>
+    <ns0:published>2017-06-05T17:17:18Z</ns0:published>
+    <ns0:title>A simple neural network module for relational reasoning</ns0:title>
+    <ns0:summary>  Relational reasoning is a central component of generally intelligent
+behavior, but has proven difficult for neural networks to learn. In this paper
+we describe how to use Relation Networks (RNs) as a simple plug-and-play module
+to solve problems that fundamentally hinge on relational reasoning. We tested
+RN-augmented networks on three tasks: visual question answering using a
+challenging dataset called CLEVR, on which we achieve state-of-the-art,
+super-human performance; text-based question answering using the bAbI suite of
+tasks; and complex reasoning about dynamic physical systems. Then, using a
+curated dataset called Sort-of-CLEVR we show that powerful convolutional
+networks do not have a general capacity to solve relational questions, but can
+gain this capacity when augmented with RNs. Our work shows how a deep learning
+architecture equipped with an RN module can implicitly discover and learn to
+reason about entities and their relations.
+</ns0:summary>
+    <ns0:author>
+      <ns0:name>Adam Santoro</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>David Raposo</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>David G. T. Barrett</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Mateusz Malinowski</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Razvan Pascanu</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Peter Battaglia</ns0:name>
+    </ns0:author>
+    <ns0:author>
+      <ns0:name>Timothy Lillicrap</ns0:name>
+    </ns0:author>
+    <ns0:link href="http://arxiv.org/abs/1706.01427v1" rel="alternate" type="text/html" />
+    <ns0:link title="pdf" href="http://arxiv.org/pdf/1706.01427v1" rel="related" type="application/pdf" />
+    <ns1:primary_category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.CL" scheme="http://arxiv.org/schemas/atom" />
+    <ns0:category term="cs.LG" scheme="http://arxiv.org/schemas/atom" />
+  </ns0:entry>
